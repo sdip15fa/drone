@@ -1,2 +1,4 @@
 /venv
 /.lh
+__pycache__/
+.env
