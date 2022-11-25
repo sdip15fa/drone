@@ -2,7 +2,10 @@ from djitellopy import Tello
 from lib import set_interval
 from utils import goToPad
 from time import sleep
+from dotenv import load_dotenv
 import os
+
+load_dotenv()
 
 pref = None
 padId = -1
@@ -11,7 +14,7 @@ executed = False
 wait = False
 
 
-def main(tello: Tello = Tello(host=os.getenv("TELLO_HOST") or "192.168.10.1")):
+def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
     global pref, padId, executed, wait
 
     # wait until connection is established
