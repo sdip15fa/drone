@@ -1,12 +1,14 @@
 from djitellopy import Tello
-
+from time import sleep
 
 def goToPad(tello: Tello) -> None:
     """autocorrect location to get as close to the mission pad as possible
 
     x and y directions only
     """
+    # tello.go_xyz_speed(x, y)
     # x direction
+    sleep(1)
     x = tello.get_mission_pad_distance_x()
     while abs(x) >= 20:
         x = tello.get_mission_pad_distance_x()

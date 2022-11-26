@@ -2,3 +2,4 @@
 /.lh
 __pycache__/
 .env
+*.tar.gz
