@@ -18,7 +18,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-docker-arm64 = "docker buildx build . --platform=linux/arm64 -t wcyat/drone"
-docker = "docker build . -t wcyat/drone"
-start = "python3 src/index.py"
-wifi = "python3 src/wifi.py"
+docker-arm64 = "drone.scripts:docker_arm64"
+docker = "drone.scripts:docker"
+start = "drone.scripts:main"
+wifi = "drone.scripts:wifi"
