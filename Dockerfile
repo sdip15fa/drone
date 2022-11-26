@@ -5,6 +5,8 @@ WORKDIR /app
 COPY ./drone ./drone
 COPY pyproject.toml poetry.lock LICENSE ./
 
+RUN apt update && apt install init -y && rm -rf /var/lib/apt/lists/*
+
 RUN pip install poetry --no-cache-dir
 RUN poetry env use python && poetry install -n && rm -rf ~/.cache/pypoetry/{cache,artifacts}
 

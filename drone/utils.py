@@ -9,6 +9,7 @@ def goToPad(tello: Tello) -> None:
     # tello.go_xyz_speed(x, y)
     # x direction
     sleep(1)
+    tello.go_xyz_speed_mid(0, 0, tello.get_height(), tello.get_mission_pad_id())
     x = tello.get_mission_pad_distance_x()
     while abs(x) >= 20:
         x = tello.get_mission_pad_distance_x()

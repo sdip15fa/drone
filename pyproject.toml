@@ -18,7 +18,12 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-docker-arm64 = "drone.scripts:docker_arm64"
+docker_arm64 = "drone.scripts:docker_arm64"
+docker_arm64_qemu = "drone.scripts:docker_arm64_qemu"
+docker_i386 = "drone.scripts:docker_i386"
+docker_i386_qemu = "drone.scripts:docker_i386_qemu"
+docker_amd64 = "drone.scripts:docker_amd64"
+docker_amd64_qemu = "drone.scripts:docker_amd64_qemu"
 docker = "drone.scripts:docker"
 start = "drone.scripts:main"
 wifi = "drone.scripts:wifi"
