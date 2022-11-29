@@ -1,0 +1,5 @@
+/archive
+/.lh
+/.vscode
+*.tar.gz
+.env
