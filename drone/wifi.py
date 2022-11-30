@@ -12,11 +12,12 @@ def main():
     
     print("setting up wifi")
     
-    ssid = f"tello-{tello.query_serial_number()}"
+    ssid = f"{tello.query_serial_number()}"
     password = os.getenv("TELLO_WIFI_PASSWORD")
     
     tello.set_wifi_credentials(ssid, password)
     
-    print(f"ssid: {ssid}")
+    print(f"ssid: TELLO-{ssid}")
     print(f"password: {password}")
     
+main()
