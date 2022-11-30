@@ -67,10 +67,12 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
         print(f"battery: {battery}%")
         temp = tello.get_temperature()
         print(f"temperature: {temp} °C")
-        return {"height": height, "battery": battery, "temperature": temp}
+        tof = tello.get_distance_tof()
+        print(f"tof distance: {tof} cm")
+        return {"height": height, "battery": battery, "temperature": temp, "tof": tof}
 
-    updatePadInterval = set_interval(updatePadId, 500)
-    monitorInterval = set_interval(monitor, 2000)
+    updatePadInterval=set_interval(updatePadId, 500)
+    monitorInterval=set_interval(monitor, 2000)
 
     def do_operation(pad: int) -> None:
         global executed, end
@@ -79,7 +81,7 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
                 print("go to mission pad")
                 tello.go_xyz_speed_mid(0, 0, tello.get_height(), 60, pad)
         else:
-            pad = 1
+            pad=1
         match pad:
             case 1:
                 print("move forward 30cm")
@@ -97,29 +99,29 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
                 if not executed:
                     print("move up 30cm")
                     tello.move_up(30)
-                    executed = True
+                    executed=True
                 else:
                     do_operation(prev if prev in range(1, 5) else 1)
             case 6:
                 if not executed:
                     print("move down 30cm")
                     tello.move_down(30)
-                    executed = True
+                    executed=True
                 else:
                     do_operation(prev if prev in range(1, 5) else 1)
             case 7:
                 if not executed:
                     print("curve to (100, 0, 0) via (50, 25, 0)")
                     tello.curve_xyz_speed(100, 0, 0, 50, 25, 0, 60)
-                    executed = True
+                    executed=True
                 else:
                     do_operation(prev if prev in range(1, 5) else 1)
             case 8:
                 if not executed:
                     print("land")
                     tello.land()
-                    end = True
-                    executed = True
+                    end=True
+                    executed=True
 
     while True:
         if end:
