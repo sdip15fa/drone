@@ -2,6 +2,10 @@
 
 Python program to control a dji tello edu drone, using missions pads.
 
+## Libraries
+
+- [djitellopy](https://github.com/damiafuentes/DJITelloPy/)
+
 ## Mission pads
 
 Upon detecting a new mission pad (must be of a different number), the drone would fly to the pad,
