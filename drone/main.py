@@ -1,22 +1,20 @@
 from djitellopy import Tello
 from lib import set_interval
-from utils import goToPad
-from time import sleep
 from dotenv import load_dotenv
 import os
 
 load_dotenv()
 
-pref = None
+prev = None
 padId = -1
 
 executed = False
-wait = False
 end = False
+change = True
 
 
 def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
-    global pref, padId, executed, wait, end
+    global prev, padId, executed, end, change
 
     # wait until connection is established
     tello.connect(True)
@@ -39,33 +37,28 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
 
     tello.set_speed(60)
 
-    tello.move_up(30)
+    if tello.get_height() < 50:
+        tello.move_up(30)
 
     if not tello.is_flying:
         print("Tello not flying")
         return
 
     def onChange() -> None:
-        global wait, executed
-        wait = True
+        global executed, change
         executed = False
-        goToPad(tello)
-        wait = False
+        change = True
 
     def updatePadId() -> None:
-        global prev, padId, wait
+        global end, prev, padId
+        if end:
+            return
         newPadId = tello.get_mission_pad_id()
-        if (newPadId not in range(1, 9)):
-            pass
-        elif (padId != newPadId):
-            while wait:
-                sleep(0.1)
+        if (newPadId in range(1, 9) and padId != newPadId):
             prev = padId
             padId = newPadId
             print("new pad id", padId)
-            wait = True
             onChange()
-            wait = False
 
     def monitor() -> dict[str, int]:
         height = tello.get_height()
@@ -74,77 +67,64 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
         print(f"battery: {battery}%")
         temp = tello.get_temperature()
         print(f"temperature: {temp} °C")
-        return {"height": height}
+        return {"height": height, "battery": battery, "temperature": temp}
 
-    set_interval(updatePadId, 500)
-    set_interval(monitor, 5000)
+    updatePadInterval = set_interval(updatePadId, 500)
+    monitorInterval = set_interval(monitor, 2000)
 
-    def do_operation(pad: int):
-        global executed, end, wait
-        if wait:
-            sleep(0.1)
-            return
-        if pad not in range(1, 9):
+    def do_operation(pad: int) -> None:
+        global executed, end
+        if pad in range(1, 9):
+            if change:
+                print("go to mission pad")
+                tello.go_xyz_speed_mid(0, 0, tello.get_height(), 60, pad)
+        else:
             pad = 1
-        # print("executed", executed)
         match pad:
             case 1:
-                print("move forward 50cm")
-                wait = True
-                tello.move_forward(50)
-                wait = False
+                print("move forward 30cm")
+                tello.move_forward(30)
             case 2:
-                print("move back 50cm")
-                wait = True
-                tello.move_back(50)
-                wait = False
+                print("move back 30cm")
+                tello.move_back(30)
             case 3:
-                print("move left 20cm")
-                wait = True
-                tello.move_left(50)
-                wait = False
+                print("move left 30cm")
+                tello.move_left(30)
             case 4:
-                print("move right 20cm")
-                wait = True
-                tello.move_right(50)
-                wait = False
+                print("move right 30cm")
+                tello.move_right(30)
             case 5:
                 if not executed:
-                    print("move up 50cm")
-                    wait = True
-                    tello.move_up(50)
-                    wait = False
+                    print("move up 30cm")
+                    tello.move_up(30)
                     executed = True
                 else:
                     do_operation(prev if prev in range(1, 5) else 1)
             case 6:
                 if not executed:
-                    print("move down 50cm")
-                    wait = True
-                    tello.move_down(50)
-                    wait = False
+                    print("move down 30cm")
+                    tello.move_down(30)
                     executed = True
                 else:
                     do_operation(prev if prev in range(1, 5) else 1)
             case 7:
                 if not executed:
-                    print("curve to (0, 100, 0) via (50, 50, 0)")
-                    wait = True
-                    tello.curve_xyz_speed(0, 100, 0, -50, 50, 0, 50)
-                    wait = False
+                    print("curve to (100, 0, 0) via (50, 25, 0)")
+                    tello.curve_xyz_speed(100, 0, 0, 50, 25, 0, 60)
                     executed = True
                 else:
                     do_operation(prev if prev in range(1, 5) else 1)
             case 8:
                 if not executed:
                     print("land")
-                    wait = True
                     tello.land()
                     end = True
                     executed = True
-                    return exit(0)
 
     while True:
         if end:
-            break
-        do_operation(padId)
+            updatePadInterval.cancel()
+            monitorInterval.cancel()
+            exit(0)
+        else:
+            do_operation(padId)
