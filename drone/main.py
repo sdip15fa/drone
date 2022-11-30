@@ -38,6 +38,7 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
     tello.set_speed(60)
 
     if tello.get_height() < 50:
+        print("height less that 50cm, moving up 30cm")
         tello.move_up(30)
 
     if not tello.is_flying:
