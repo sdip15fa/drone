@@ -81,6 +81,7 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
             if change:
                 print("go to mission pad")
                 tello.go_xyz_speed_mid(0, 0, tello.get_height(), 60, pad)
+                change = False
         else:
             pad=1
         match pad:
