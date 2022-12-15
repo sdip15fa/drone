@@ -37,6 +37,8 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
 
     tello.set_speed(60)
 
+    print(tello.get_height())
+
     if tello.get_height() < 50:
         print("height less that 50cm, moving up 30cm")
         tello.move_up(30)
@@ -76,11 +78,11 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
     monitorInterval=set_interval(monitor, 2000)
 
     def do_operation(pad: int) -> None:
-        global executed, end
+        global executed, end, change
         if pad in range(1, 9):
             if change:
-                print("go to mission pad")
-                tello.go_xyz_speed_mid(0, 0, tello.get_height(), 60, pad)
+                print(f"go to mission pad {pad}")
+                tello.go_xyz_speed_mid(0, 0, 100, 60, pad)
                 change = False
         else:
             pad=1
@@ -113,9 +115,13 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
                     do_operation(prev if prev in range(1, 5) else 1)
             case 7:
                 if not executed:
-                    print("curve to (100, 0, 0) via (50, 25, 0)")
-                    tello.curve_xyz_speed(100, 0, 0, 50, 25, 0, 60)
-                    executed=True
+                    times = int(os.environ["AROUND"]) if os.environ["AROUND"] else 1
+                    while times:
+                        times -= 1
+                        tello.move_right(70)
+                        tello.move_forward(150)
+                        tello.move_left(70)
+                    executed = True
                 else:
                     do_operation(prev if prev in range(1, 5) else 1)
             case 8:
