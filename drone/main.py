@@ -12,8 +12,16 @@ executed = False
 end = False
 change = True
 
+config = {
+    'height': int(os.getenv('HEIGHT') or 100) or 100,
+    'around': int(os.getenv('AROUND') or 1) or 1,
+    'ip': os.getenv('TELLO_IP') or "192.168.10.1",
+    'speed': int(os.getenv('SPEED') or 60) or 60,
+    'distance': int(os.getenv('DISTANCE') or 30) or 30,
+}
 
-def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
+
+def main(tello: Tello = Tello(host=config["ip"])):
     global prev, padId, executed, end, change
 
     # wait until connection is established
@@ -35,17 +43,17 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
     tello.takeoff()
     print("Took off")
 
-    tello.set_speed(60)
-
-    print(tello.get_height())
-
-    if tello.get_height() < 50:
-        print("height less that 50cm, moving up 30cm")
-        tello.move_up(30)
+    tello.set_speed(config["speed"])
 
     if not tello.is_flying:
         print("Tello not flying")
         return
+
+    height = tello.get_height()
+
+    if height < config["height"]:
+        print(f"Moving up to {config['height']}cm")
+        tello.move_up(config["height"] - height)
 
     def onChange() -> None:
         global executed, change
@@ -74,53 +82,63 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
         print(f"tof distance: {tof} cm")
         return {"height": height, "battery": battery, "temperature": temp, "tof": tof}
 
-    updatePadInterval=set_interval(updatePadId, 500)
-    monitorInterval=set_interval(monitor, 2000)
+    updatePadInterval = set_interval(updatePadId, 500)
+    monitorInterval = set_interval(monitor, 2000)
 
     def do_operation(pad: int) -> None:
         global executed, end, change
+
         if pad in range(1, 9):
             if change:
                 print(f"go to mission pad {pad}")
-                tello.go_xyz_speed_mid(0, 0, 100, 60, pad)
+                tello.go_xyz_speed_mid(
+                    0, 0, config["height"], config["speed"], pad)
                 change = False
         else:
-            pad=1
+            pad = 1
         match pad:
             case 1:
-                print("move forward 30cm")
-                tello.move_forward(30)
+                print(f"move forward {config['distance']}cm")
+                tello.move_forward(config["distance"])
             case 2:
-                print("move back 30cm")
-                tello.move_back(30)
+                print(f"move back {config['distance']}cm")
+                tello.move_back(config["distance"])
             case 3:
-                print("move left 30cm")
-                tello.move_left(30)
+                print(f"move left {config['distance']}cm")
+                tello.move_left(config["distance"])
             case 4:
-                print("move right 30cm")
-                tello.move_right(30)
+                print(f"move right {config['distance']}cm")
+                tello.move_right(config["distance"])
             case 5:
                 if not executed:
-                    print("move up 30cm")
-                    tello.move_up(30)
-                    executed=True
+                    print(f"move up {config['distance']}cm")
+                    tello.move_up(config["distance"])
+                    config["height"] += config["distance"]
+                    executed = True
                 else:
                     do_operation(prev if prev in range(1, 5) else 1)
             case 6:
                 if not executed:
-                    print("move down 30cm")
-                    tello.move_down(30)
-                    executed=True
+                    print(f"move down {config['distance']}cm")
+                    tello.move_down(config["distance"])
+                    config["height"] -= config["distance"]
+                    executed = True
                 else:
                     do_operation(prev if prev in range(1, 5) else 1)
             case 7:
                 if not executed:
-                    times = int(os.environ["AROUND"]) if os.environ["AROUND"] else 1
+                    times = config['around']
                     while times:
-                        times -= 1
+                        if pad in range(1, 9):
+                            if change:
+                                print(f"go to mission pad {pad}")
+                                tello.go_xyz_speed_mid(
+                                    0, 0, config["height"], config["speed"], pad)
+                                change = False
                         tello.move_right(70)
                         tello.move_forward(150)
                         tello.move_left(70)
+                        times -= 1
                     executed = True
                 else:
                     do_operation(prev if prev in range(1, 5) else 1)
@@ -128,8 +146,8 @@ def main(tello: Tello = Tello(host=os.getenv("TELLO_IP") or "192.168.10.1")):
                 if not executed:
                     print("land")
                     tello.land()
-                    end=True
-                    executed=True
+                    end = True
+                    executed = True
 
     while True:
         if end:
