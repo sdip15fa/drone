@@ -12,16 +12,19 @@ executed = False
 end = False
 change = True
 
-config = {
-    'height': int(os.getenv('HEIGHT') or 100) or 100,
-    'around': int(os.getenv('AROUND') or 1) or 1,
-    'ip': os.getenv('TELLO_IP') or "192.168.10.1",
-    'speed': int(os.getenv('SPEED') or 60) or 60,
-    'distance': int(os.getenv('DISTANCE') or 30) or 30,
-}
 
+def getConfig() -> dict[str, str | int]:
+    return {
+        'height': int(os.getenv('HEIGHT') or 100) or 100,
+        'around': int(os.getenv('AROUND') or 1) or 1,
+        'ip': os.getenv('TELLO_IP') or "192.168.10.1",
+        'speed': int(os.getenv('SPEED') or 60) or 60,
+        'distance': int(os.getenv('DISTANCE') or 30) or 30,
+    }
 
-def main(tello: Tello = Tello(host=config["ip"])):
+config = getConfig()
+
+def main(tello: Tello = Tello(host=config["ip"])) -> None:
     global prev, padId, executed, end, change
 
     # wait until connection is established
@@ -87,6 +90,8 @@ def main(tello: Tello = Tello(host=config["ip"])):
 
     def do_operation(pad: int) -> None:
         global executed, end, change
+
+        config = getConfig()
 
         if pad in range(1, 9):
             if change:
