@@ -1,4 +1,3 @@
-from drone.common import *
 import drone.common as common
 from djitellopy import Tello
 

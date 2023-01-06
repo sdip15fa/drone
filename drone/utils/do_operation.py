@@ -1,4 +1,5 @@
 import drone.common as common
+from drone.utils.get_config import get_config
 from drone.utils.go_to_pad import go_to_pad
 from drone.utils.execute import execute
 
@@ -10,13 +11,18 @@ from drone.functions.right import right
 from drone.functions.up import up
 from drone.functions.down import down
 from drone.functions.around import around
+from drone.functions.circle import circle
 from drone.functions.land import land
 
 
 def do_operation(pad: int) -> None:
-    common.config = common.get_config()
+    common.config = get_config()
 
-    pad = go_to_pad(pad)
+    if pad in range(1, 9):
+        if common.change:
+            go_to_pad(pad)
+    else:
+        pad = 1
 
     match pad:
         case 1:
@@ -33,5 +39,6 @@ def do_operation(pad: int) -> None:
             execute(down, True)
         case 7:
             execute(around, True)
+            # execute(circle, True)
         case 8:
             execute(land, True)
