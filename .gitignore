@@ -1,5 +1,7 @@
 /venv
 /.lh
+/.fleet
+/.vscode
 __pycache__/
 .env
 *.tar.gz
