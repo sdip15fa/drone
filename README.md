@@ -39,7 +39,7 @@ Move down 30cm, then do the previous action if previous mission pad is 1-4, else
 
 ### 7
 
-Move along a curve to (100, 0, 0) through (50, 25, 0), then do the previous action if previous mission pad is 1-4, else do [1](#1).
+Move a left-right-left path to move around an obstacle, x and y distance and times can be adjusted using .env.
 
 ### 8
 
