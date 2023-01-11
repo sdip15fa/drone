@@ -2,7 +2,6 @@ from dotenv import load_dotenv
 import os
 import type_enforced
 
-@type_enforced.Enforcer
 def get_config() -> dict[str, str | int]:
     load_dotenv()
     return {
