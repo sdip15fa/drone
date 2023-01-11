@@ -29,6 +29,6 @@ def init_drone() -> None:
 
     height = common.tello.get_height()
 
-    if height < common.config["init_height"]:
+    if height + 20 < common.config["init_height"]:
         print(f"Moving up to {common.config['init_height']}cm")
         common.tello.move_up(common.config["init_height"] - height)
