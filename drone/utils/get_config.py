@@ -1,7 +1,8 @@
 from dotenv import load_dotenv
 import os
+import type_enforced
 
-
+@type_enforced.Enforcer
 def get_config() -> dict[str, str | int]:
     load_dotenv()
     return {
@@ -16,4 +17,8 @@ def get_config() -> dict[str, str | int]:
         'ip': os.getenv('TELLO_IP') or "192.168.10.1",
         'speed': int(os.getenv('SPEEDD') or 60) or 60,
         'distance': int(os.getenv('DISTANCE') or 30) or 30,
+        'min_height': int(os.getenv('MIN_HEIGHT') or 30) or 30,
+        'max_height': int(os.getenv('MAX_HEIGHT') or 200) or 200,
+        'min_distance': int(os.getenv('MIN_DISTANCE') or 30) or 30,
+        'mode': int(os.getenv('MODE') or 1) or 1,
     }
