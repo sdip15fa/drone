@@ -1,0 +1,275 @@
+[INFO] tello.py - 122 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 437 - Send command: 'command'
+[INFO] tello.py - 461 - Response command: 'ok'
+[INFO] tello.py - 437 - Send command: 'sdk?'
+[INFO] tello.py - 461 - Response sdk?: '30'
+[INFO] tello.py - 437 - Send command: 'mon'
+[INFO] tello.py - 461 - Response mon: 'ok'
+[INFO] tello.py - 437 - Send command: 'takeoff'
+[INFO] tello.py - 461 - Response takeoff: 'ok'
+[INFO] tello.py - 437 - Send command: 'speed 60'
+[INFO] tello.py - 461 - Response speed 60: 'ok'
+[INFO] tello.py - 437 - Send command: 'up 40'
+[INFO] tello.py - 461 - Response up 40: 'ok'
+[INFO] tello.py - 437 - Send command: 'forward 30'
+[INFO] tello.py - 461 - Response forward 30: 'ok'
+[INFO] tello.py - 437 - Send command: 'go 0 0 100 60 m5'
+[INFO] tello.py - 461 - Response go 0 0 100 60 m5: 'ok'
+[INFO] tello.py - 437 - Send command: 'go 0 0 150 60 m5'
+[INFO] tello.py - 461 - Response go 0 0 150 60 m5: 'ok'
+[INFO] tello.py - 437 - Send command: 'speed 10'
+[INFO] tello.py - 461 - Response speed 10: 'ok'
+[INFO] tello.py - 437 - Send command: 'forward 20'
+[INFO] tello.py - 461 - Response forward 20: 'ok'
+[INFO] tello.py - 437 - Send command: 'forward 20'
+[INFO] tello.py - 461 - Response forward 20: 'ok'
+[INFO] tello.py - 437 - Send command: 'forward 20'
+[INFO] tello.py - 461 - Response forward 20: 'ok'
+[INFO] tello.py - 437 - Send command: 'forward 20'
+[INFO] tello.py - 461 - Response forward 20: 'ok'
+[INFO] tello.py - 437 - Send command: 'go 0 0 150 60 m5'
+[INFO] tello.py - 461 - Response go 0 0 150 60 m5: 'ok'
+[INFO] tello.py - 437 - Send command: 'down 88'
+[INFO] tello.py - 461 - Response down 88: 'ok'
+[INFO] tello.py - 437 - Send command: 'forward 30'
+[INFO] tello.py - 461 - Response forward 30: 'ok'
+[INFO] tello.py - 437 - Send command: 'forward 30'
+[INFO] tello.py - 461 - Response forward 30: 'error Motor stop'
+[INFO] tello.py - 437 - Send command: 'forward 30'
+[INFO] tello.py - 461 - Response forward 30: 'error Motor stop'
+[INFO] tello.py - 437 - Send command: 'forward 30'
+[INFO] tello.py - 461 - Response forward 30: 'error Motor stop'
+Tello connected
+SDK version: 30
+battery: 82%
+enabling mission pads detection
+mission pad id: -1
+Taking off
+Took off
+Moving up to 100cm
+move forward 30cm
+new pad id 5
+go to mission pad 5
+height: 100 cm
+battery: 82%
+temperature: 74.5 °C
+tof distance: 113 cm
+height: 90 cm
+battery: 82%
+temperature: 74.0 °C
+tof distance: 109 cm
+height: 130 cm
+battery: 82%
+temperature: 74.0 °C
+tof distance: 150 cm
+height: 130 cm
+battery: 82%
+temperature: 73.5 °C
+tof distance: 151 cm
+current tof distance: 147
+current tof distance: 148
+current tof distance: 146
+current tof distance: 148
+height: 130 cm
+battery: 82%
+temperature: 74.0 °C
+tof distance: 147 cm
+current tof distance: 147
+current tof distance: 152
+current tof distance: 149
+current tof distance: 151
+current tof distance: 154
+current tof distance: 154
+current tof distance: 151
+current tof distance: 154
+current tof distance: 153
+current tof distance: 153
+current tof distance: 149
+current tof distance: 153
+current tof distance: 152
+current tof distance: 153
+current tof distance: 154
+current tof distance: 153
+current tof distance: 152
+current tof distance: 152
+current tof distance: 153
+current tof distance: 151
+height: 130 cm
+battery: 82%
+temperature: 74.5 °C
+tof distance: 151 cm
+current tof distance: 153
+current tof distance: 153
+current tof distance: 153
+current tof distance: 150
+current tof distance: 151
+current tof distance: 149
+current tof distance: 151
+current tof distance: 150
+current tof distance: 146
+current tof distance: 140
+current tof distance: 141
+current tof distance: 137
+current tof distance: 137
+current tof distance: 136
+current tof distance: 137
+current tof distance: 139
+current tof distance: 139
+current tof distance: 136
+current tof distance: 133
+current tof distance: 121
+height: 130 cm
+battery: 82%
+temperature: 74.5 °C
+tof distance: 121 cm
+current tof distance: 88
+height: 60
+height: 200 cm
+battery: 82%
+temperature: 74.0 °C
+tof distance: 152 cm
+height: 120 cm
+battery: 81%
+temperature: 75.0 °C
+tof distance: 151 cm
+height: 130 cm
+battery: 81%
+temperature: 74.5 °C
+tof distance: 151 cm
+height: 100 cm
+battery: 81%
+temperature: 74.0 °C
+tof distance: 120 cm
+height: 70 cm
+battery: 80%
+temperature: 74.5 °C
+tof distance: 90 cm
+height: 40 cm
+battery: 80%
+temperature: 74.5 °C
+tof distance: 65 cm
+move forward 30cm
+height: 40 cm
+battery: 80%
+temperature: 75.5 °C
+tof distance: 63 cm
+Traceback (most recent call last):
+  File "/home/wcyat/dev/drone/./drone/index.py", line 3, in <module>
+    main()
+  File "/home/wcyat/dev/drone/drone/main.py", line 24, in main
+    do_operation(common.padId)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/type_enforced/enforcer.py", line 92, in __call__
+    return_value = self.__fn__(*args, **kwargs)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 61, in do_operation
+    execute(go_through, True)
+  File "/home/wcyat/dev/drone/drone/utils/execute.py", line 14, in execute
+    do.do_operation(common.prev if common.prev in range(1, 5) else 1)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/type_enforced/enforcer.py", line 92, in __call__
+    return_value = self.__fn__(*args, **kwargs)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 53, in do_operation
+    execute(forward, False)
+  File "/home/wcyat/dev/drone/drone/utils/execute.py", line 16, in execute
+    func(common.tello)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/type_enforced/enforcer.py", line 92, in __call__
+    return_value = self.__fn__(*args, **kwargs)
+  File "/home/wcyat/dev/drone/drone/functions/forward.py", line 11, in forward
+    tello.move_forward(common.config["distance"])
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy/tello.py", line 649, in move_forward
+    self.move("forward", x)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy/tello.py", line 614, in move
+    self.send_control_command("{} {}".format(direction, x))
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy/tello.py", line 486, in send_control_command
+    self.raise_result_error(command, response)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy/tello.py", line 528, in raise_result_error
+    raise Exception("Command '{}' was unsuccessful for {} tries. Latest response:\t'{}'"
+Exception: Command 'forward 30' was unsuccessful for 4 tries. Latest response:	'error Motor stop'
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+height: -50 cm
+battery: 79%
+temperature: 75.0 °C
+tof distance: 10 cm
+height: -230 cm
+battery: 79%
+temperature: 74.5 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 74.5 °C
+tof distance: 10 cm
+height: 160 cm
+battery: 79%
+temperature: 75.0 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 75.0 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 75.5 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 75.0 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 76.0 °C
+tof distance: 10 cm
+height: -10 cm
+battery: 79%
+temperature: 76.0 °C
+tof distance: 10 cm
+height: 20 cm
+battery: 79%
+temperature: 76.0 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 76.5 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 76.0 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 76.5 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 77.0 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 76.5 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 77.5 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 78.0 °C
+tof distance: 78 cm
+height: 0 cm
+battery: 79%
+temperature: 78.0 °C
+tof distance: 10 cm
+height: 0 cm
+battery: 79%
+temperature: 77.5 °C
+tof distance: 10 cm
+[INFO] tello.py - 437 - Send command: 'land'
