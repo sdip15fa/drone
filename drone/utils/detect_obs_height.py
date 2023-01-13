@@ -7,15 +7,13 @@ from drone.lib import set_interval
 obs_height: int = None
 tof: int = 0
 
-
-def get_tof():
+@type_enforced.Enforcer
+def get_tof() -> None:
     global tof
     try:
-        #print("get tof")
         if tof <= common.config['max_height'] - 40:
             return
         tof = common.tello.get_distance_tof()
-        #obs_height = tello.get_distance_tof()
         print(f"current tof distance: {tof}")
     except Exception as e:
         print(e)
@@ -36,19 +34,19 @@ def detect_obs_height(tello: Tello) -> int:
 
     tello.go_xyz_speed_mid(
         0, 0, common.config['max_height'], common.config['speed'], 5)
-    height = tello.get_distance_tof()
+    init_height = tello.get_height()
     tof = tello.get_distance_tof()
+    init_tof = tof
     tello.set_speed(10)
     tof_interval: Timer = set_interval(get_tof, 100)
-    while (tello.get_distance_tof() >= common.config["min_height"]):
-        if tof <= common.config['max_height'] - 30:
-            print(f"height: {height - tof}")
+    while (tello.get_height() >= common.config["min_height"]):
+        if tof <= init_tof - 50:
+            print(f"height: {init_tof - tof}")
             tof_interval.cancel()
             break
         tello.move_forward(20)
     tof_interval.cancel()
-    #tello.move_up(abs(original_height - tello.get_distance_tof()))
     tello.go_xyz_speed_mid(
-        0, 0, common.config['max_height'], common.config['speed'], 5)
+        0, 0, init_height, common.config['speed'], common.padId)
     tello.move_down(tof)
     return tof
