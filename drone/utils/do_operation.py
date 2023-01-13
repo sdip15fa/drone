@@ -14,6 +14,7 @@ from drone.functions.around import around
 from drone.functions.circle import circle
 from drone.functions.land import land
 from drone.functions.go_through import go_through
+from drone.functions.tunnel import tunnel
 
 import type_enforced
 
@@ -52,7 +53,8 @@ def do_operation(pad: int) -> None:
                 case 1:
                     execute(forward, False)
                 case 2:
-                    execute(back, False)
+                    # execute(back, False)
+                    execute(tunnel, True)
                 case 3:
                     execute(left, False)
                 case 4:
