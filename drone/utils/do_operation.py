@@ -16,9 +16,9 @@ from drone.functions.land import land
 from drone.functions.go_through import go_through
 from drone.functions.tunnel import tunnel
 
-import type_enforced
 
-@type_enforced.Enforcer
+
+
 def do_operation(pad: int) -> None:
     common.config = get_config()
 
