@@ -7,6 +7,7 @@ from drone.lib import set_interval
 obs_height: int = None
 tof: int = 0
 
+
 def get_tof() -> None:
     global tof
     try:
@@ -38,12 +39,11 @@ def detect_obs_height(tello: Tello) -> int:
     tello.set_speed(10)
     tof_interval: Timer = set_interval(get_tof, 100)
     while (tello.get_height() >= common.config["min_height"]):
-        if tof <= init_tof - (common.config["max_height"] / 3):
+        if tof <= init_tof - (common.config["max_height"] / 6):
             print(f"height: {init_tof - tof}")
             tof_interval.cancel()
             tello.go_xyz_speed_mid(
-                0, 0, init_tof - tof, common.config['speed'], common.padId)
-            # tello.move_down(tof)
+                0, 0, init_tof - tof - 30 if init_tof - tof - 30 >= 20 else 20, common.config['speed'], common.padId)
             break
         tello.move_forward(20)
     # tof_interval.cancel()
