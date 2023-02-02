@@ -183,7 +183,7 @@ Copy the example to `.env`:
 cp example.env .env
 ```
 
-The edit the .env file, e ven during runtime it would work (the config is re-read upon every operation).
+The edit the `.env` file, even during runtime it would work (the config is re-read upon every operation).
 
 Most variables are self-explanatory. Here are some of the variables you may find difficult to configure:
 
