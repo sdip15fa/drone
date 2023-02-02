@@ -6,16 +6,6 @@ Python program to control a dji tello edu drone, using missions pads.
 
 - [djitellopy](https://github.com/damiafuentes/DJITelloPy/)
 
-## Config
-
-Copy example.env to .env:
-
-```bash
-cp example.env .env
-```
-
-To change the configuration you can change values in .env file, even in runtime (re-read upon each operation).
-
 ## Mission pads
 
 Upon detecting a new mission pad (must be of a different number), the drone would fly to the pad,
@@ -185,7 +175,7 @@ Auto land. The program is exited after that.
 
 [Land](#land)
 
-## Environmental variables
+## Config (environmental variables)
 
 Copy the example to `.env`:
 
@@ -193,25 +183,34 @@ Copy the example to `.env`:
 cp example.env .env
 ```
 
+The edit the .env file, e ven during runtime it would work (the config is re-read upon every operation).
+
+Most variables are self-explanatory. Here are some of the variables you may find difficult to configure:
+
 ### TELLO_IP
 
 Ip of the tello drone, usually `192.168.10.1`.
 
-If not ping the addresses starting from `192.168.10.2`, `192.168.10.3` and so on.
+If not scan all the addresses on the network:
 
 ```bash
-ping 192.168.10.2
+sudo nmap 192.168.10.0/24 -sU -p 8889
 ```
 
 To make sure the ip belongs to the drone:
 
 ```bash
-nmap 192.168.10.1 -p 8889
+sudo nmap 192.168.10.1 -sU -p 8889
 ```
 
 ### TELLO_WIFI_PASSWORD
 
 The password for the wifi you would setup when running the script [wifi](#wifi).
+
+### Mode
+
+- `1`: use [mode 1](#mode-1)
+- `2`: use [mode 2](#mode-2)
 
 ## Scripts
 
