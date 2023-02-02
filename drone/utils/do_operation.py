@@ -15,9 +15,8 @@ from drone.functions.circle import circle
 from drone.functions.land import land
 from drone.functions.go_through import go_through
 from drone.functions.tunnel import tunnel
-
-
-
+from drone.functions.snake import snake
+from drone.functions.rotate import rotate
 
 def do_operation(pad: int) -> None:
     common.config = get_config()
@@ -62,7 +61,7 @@ def do_operation(pad: int) -> None:
                 case 5:
                     execute(go_through, True)
                 case 6:
-                    execute(circle, True)
+                    execute(rotate, True)
                 case 7:
                     execute(around, True)
                 case 8:
