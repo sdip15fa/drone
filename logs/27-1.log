@@ -1,0 +1,15 @@
+[INFO] tello.py - 122 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 437 - Send command: 'command'
+[INFO] tello.py - 461 - Response command: 'ok'
+Traceback (most recent call last):
+  File "/home/wcyat/dev/drone/./drone/index.py", line 3, in <module>
+    main()
+  File "/home/wcyat/dev/drone/drone/main.py", line 11, in main
+    init_drone()
+  File "/home/wcyat/dev/drone/drone/utils/init_drone.py", line 6, in init_drone
+    common.tello.connect(False)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy/tello.py", line 546, in connect
+    raise Exception('Did not receive a state packet from the Tello')
+Exception: Did not receive a state packet from the Tello
