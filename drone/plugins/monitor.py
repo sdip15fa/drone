@@ -10,4 +10,7 @@ def monitor() -> dict[str, int]:
     print(f"temperature: {temp} °C")
     tof = common.tello.get_distance_tof()
     print(f"tof distance: {tof} cm")
+    # speed = common.tello.query_speed()
+    # print(f"speed: {speed}")
+    print(f"mission pad id: {common.padId}")
     return {"height": curr_height, "battery": battery_level, "temperature": temp, "tof": tof}
