@@ -13,3 +13,5 @@ padId: int = -1
 executed: bool = False
 end: bool = False
 change: bool = False
+
+range_for_permanent = [1, 2, 4] if config['mode'] == 2 else list(range(1, 5))
