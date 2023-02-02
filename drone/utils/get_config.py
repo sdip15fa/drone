@@ -13,6 +13,7 @@ def get_config() -> dict[str, str | int]:
         'circle': int(os.getenv('CIRCLE') or 1) or 1,
         'circle_x': int(os.getenv('CIRCLE_X') or 60) or 60,
         'circle_y': int(os.getenv('CIRCLE_Y') or 100) or 100,
+        'rotate': int(os.getenv('ROTATE') or 6) or 6,
         'ip': os.getenv('TELLO_IP') or "192.168.10.1",
         'speed': int(os.getenv('SPEEDD') or 60) or 60,
         'distance': int(os.getenv('DISTANCE') or 30) or 30,
