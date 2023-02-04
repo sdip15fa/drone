@@ -1,5 +1,5 @@
 import drone.common as common
-from djitellopy import Tello
+from djitellopy_reduced import Tello
 
 
 def right(tello: Tello):

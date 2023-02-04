@@ -1,5 +1,5 @@
 from threading import Timer
-from djitellopy import Tello
+from djitellopy_reduced import Tello
 import drone.common as common
 
 from drone.lib import set_interval

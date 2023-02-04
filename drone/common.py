@@ -1,4 +1,4 @@
-from djitellopy import Tello
+from djitellopy_reduced import Tello
 
 from drone.utils.get_config import get_config
 

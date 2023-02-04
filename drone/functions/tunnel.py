@@ -1,4 +1,4 @@
-from djitellopy import Tello
+from djitellopy_reduced import Tello
 import drone.common as common
 
 

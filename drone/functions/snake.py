@@ -1,4 +1,4 @@
-from djitellopy import Tello
+from djitellopy_reduced import Tello
 import drone.common as common
 def snake(tello: Tello) -> None:
     tello.move_right(common.config["around_x"])

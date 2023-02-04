@@ -1,13 +1,12 @@
-FROM python:3.10
+FROM python:3.10-alpine
 
 WORKDIR /app
 
 COPY ./drone ./drone
 COPY pyproject.toml poetry.lock LICENSE ./
 
-RUN apt update && apt install init -y && rm -rf /var/lib/apt/lists/*
+RUN apk add curl && curl -sSL https://install.python-poetry.org | python3 -
 
-RUN pip install poetry --no-cache-dir
-RUN poetry env use python && poetry install -n && rm -rf ~/.cache/pypoetry/{cache,artifacts}
+RUN poetry config virtualenvs.create false && poetry install -n && rm -rf ~/.cache/pypoetry/{cache,artifacts}
 
-CMD poetry env use $(poetry env list | tr ' ' '\n' | head -n 1) python3 src/index.py
+CMD python3 src/index.py

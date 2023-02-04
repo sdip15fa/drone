@@ -1,4 +1,4 @@
-from djitellopy import Tello
+from djitellopy_reduced import Tello
 from dotenv import load_dotenv
 import os
 
