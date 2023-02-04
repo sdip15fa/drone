@@ -1,14 +1,14 @@
 [[package]]
 name = "autopep8"
-version = "2.0.0"
+version = "2.0.1"
 description = "A tool that automatically formats Python code to conform to the PEP 8 style guide"
 category = "dev"
 optional = false
-python-versions = "*"
+python-versions = ">=3.6"
 
 [package.dependencies]
-pycodestyle = ">=2.9.1"
-tomli = "*"
+pycodestyle = ">=2.10.0"
+tomli = {version = "*", markers = "python_version < \"3.11\""}
 
 [[package]]
 name = "djitellopy-reduced"
@@ -28,7 +28,7 @@ python-versions = ">=3.6"
 
 [[package]]
 name = "python-dotenv"
-version = "0.21.0"
+version = "0.21.1"
 description = "Read key-value pairs from a .env file and set them as environment variables"
 category = "main"
 optional = false
@@ -48,7 +48,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "d0f335b67d34ffd555d4c8458d6d5b8864f9991b61dbfebaa3dab7da0badef47"
+content-hash = "d4e226cb33e167f9012d5ceb146e01cf19546fc1c475c9c75102c9d57192aada"
 
 [metadata.files]
 autopep8 = []
