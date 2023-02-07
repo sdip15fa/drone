@@ -29,7 +29,7 @@ def detect_obs_height(tello: Tello) -> int:
     :return: The height of the obstacle.
     """
     global obs_height, tof
-    #original_height = tello.get_distance_tof()
+    # original_height = tello.get_distance_tof()
 
     tello.go_xyz_speed_mid(
         0, 0, common.config['max_height'], common.config['speed'], 5)
@@ -38,16 +38,15 @@ def detect_obs_height(tello: Tello) -> int:
     init_tof = tof
     tello.set_speed(10)
     tof_interval: Timer = set_interval(get_tof, 100)
-    while True: # (tello.get_height() >= common.config["min_height"]):
+    while True:  # (tello.get_height() >= common.config["min_height"]):
         if tof <= init_tof - (common.config["max_height"] / 4):
-            print(f"height: {init_tof - tof}")
+            height = init_tof - tof
+            print(f"height: {height}")
             tof_interval.cancel()
-            tello.go_xyz_speed_mid(
-                0, 0, init_tof - tof - 30 if init_tof - tof - 30 >= 20 else 20, common.config['speed'], common.padId)
-            break
-        tello.move_forward(20)
-    # tof_interval.cancel()
-    # tello.go_xyz_speed_mid(
-    #    0, 0, common.config['max_height'], common.config['speed'], common.padId)
-    # tello.move_down(tof)
-    return tof
+            return height
+        {
+            1: tello.move_forward,
+            2: tello.move_back,
+            3: tello.move_left,
+            4: tello.move_right,
+        }[common.padId if common.padId in common.pads_permanent else 1](20)
