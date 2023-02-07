@@ -18,6 +18,7 @@ from drone.functions.tunnel import tunnel
 from drone.functions.snake import snake
 from drone.functions.rotate import rotate
 
+
 def do_operation(pad: int) -> None:
     common.config = get_config()
 
@@ -46,7 +47,12 @@ def do_operation(pad: int) -> None:
                     execute(around, True)
                     # execute(circle, True)
                 case 8:
-                    execute(land, True)
+                    if common.config['switch_mode']:
+                        common.config['mode'] = 2
+                        common.config['switch_mode'] -= 1
+                        common.mode_switched = True
+                    else:
+                        execute(land, True)
         case 2:
             match pad:
                 case 1:
@@ -65,4 +71,9 @@ def do_operation(pad: int) -> None:
                 case 7:
                     execute(around, True)
                 case 8:
-                    execute(land, True)
+                    if common.config['switch_mode']:
+                        common.config['mode'] = 1
+                        common.config['switch_mode'] -= 1
+                        common.mode_switched = True
+                    else:
+                        execute(land, True)
