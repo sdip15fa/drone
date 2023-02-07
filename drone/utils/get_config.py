@@ -2,9 +2,9 @@ from dotenv import load_dotenv
 import os
 
 
-def get_config() -> dict[str, str | int]:
+def get_config() -> dict[str, str | int | list[int]]:
     load_dotenv()
-
+    
     try:
         import common
     except:
@@ -27,5 +27,6 @@ def get_config() -> dict[str, str | int]:
         'max_height': int(os.getenv('MAX_HEIGHT') or 200) or 200,
         'min_distance': int(os.getenv('MIN_DISTANCE') or 30) or 30,
         'mode': common.config['mode'] if common and common.mode_switched else int(os.getenv('MODE') or 1) or 1,
+        'obs_height': eval(os.getenv('OBS_HEIGHT') or '[100]') or [100],
         'switch_mode': common.config['switch_mode'] if common and common.mode_switched else int(os.getenv('SWITCH_MODE') or 0) or 0,
     }

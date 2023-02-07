@@ -77,13 +77,19 @@ Otherwise move in accordance with [Forward](#forward).
 
 Rise to the height specified by the env variable `MAX_HEIGHT`.
 
-Then move forward very slowly (0.1m/s) until a tof distance significantly less than the initial is detected (detection interval is 0.1s).
+Then move to the direction defined earlier, or forward very slowly (0.1m/s) until a tof distance significantly less than the initial is detected (detection interval is 0.1s).
 
 Initial tof distance - detected tof distance would be treated as the height of the obstacle.
 
 The drone would then return to the mission pad and try to pass through the obstacle using the height obtained.
 
 **_WARNING_**: DO NOT place any other mission pads between the mission pad for this function and the obstacle.
+
+#### Go through (predefined height)
+
+Move to the height specified by the env variable `OBS_HEIGHT` (use the times used as index, first time is 0).
+
+Then the drone would fly as instructed before or forward.
 
 #### Rotate
 
@@ -137,7 +143,7 @@ Auto land. The program is exited after that.
 
 #### 8
 
-[Land](#land)
+[Land](#land) or switch mode (see the `SWITCH_MODE` variable)
 
 ### Mode 2
 
@@ -173,7 +179,7 @@ Auto land. The program is exited after that.
 
 #### 8
 
-[Land](#land)
+[Land](#land) or switch mode (see the `SWITCH_MODE` variable)
 
 ## Config (environmental variables)
 

@@ -14,6 +14,7 @@ from drone.functions.around import around
 from drone.functions.circle import circle
 from drone.functions.land import land
 from drone.functions.go_through import go_through
+from drone.functions.go_through_predefined_heights import go_through_predefined_heights
 from drone.functions.tunnel import tunnel
 from drone.functions.snake import snake
 from drone.functions.rotate import rotate
@@ -66,6 +67,7 @@ def do_operation(pad: int) -> None:
                     execute(right, False)
                 case 5:
                     execute(go_through, True)
+                    # execute(go_through_predefined_heights, True)
                 case 6:
                     execute(rotate, True)
                 case 7:
