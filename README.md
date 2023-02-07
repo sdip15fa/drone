@@ -55,7 +55,7 @@ The move down height is configurable via the env variable `HEIGHT`
 
 #### Around
 
-Move a right-forward-left path to move around an obstacle, x (`AROUND_X`) and y (`AROUND_Y`) distance and (`AROUND`) times can be adjusted using .env.
+Move a right-forward-left path to move around an obstacle, x `AROUND_X` and y `AROUND_Y` distance and times `AROUND_TIMES` can be adjusted using .env.
 
 If times is more than one the drone would move using an s-shape path (right-forward-left then left-forward-right).
 
@@ -93,17 +93,19 @@ Then the drone would fly as instructed before or forward.
 
 #### Rotate
 
-Rotate 30 degrees clockwise. The times to rotate could be adjusted using the env variable `ROTATE`.
+Rotate 30 degrees clockwise. The times to rotate could be adjusted using the env variable `ROTATE_TIMES`.
 
 #### Snake
 
 Move in an s-shape path (right-forward-left then left-forward-right).
 
-Using [Around](#around) with `AROUND=2` can achieve the same result.
+Using [Around](#around) with `AROUND_TIMES=[2]` can achieve the same result.
 
 #### Circle (square)
 
 Move a right-forward-left-back-right path (like a square), finally returns to the mission pad.
+
+Times can be set using `CIRCLE_TIMES`.
 
 #### Land
 

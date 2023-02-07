@@ -3,10 +3,13 @@ from djitellopy_reduced import Tello
 
 from drone.utils.go_to_pad import go_to_pad
 
+runs = 0
+
 
 def around(tello: Tello):
-    times = common.config['around']
-    for i in range(times):
+    global runs
+    times: list[int] = common.config['around_times']
+    for i in range(times[runs] if runs < len(times) else common.config['around_times_default']):
         if common.padId in range(1, 9):
             if common.change:
                 go_to_pad(common.padId)
@@ -19,3 +22,4 @@ def around(tello: Tello):
             tello.move_left(common.config['around_x'])
             tello.move_forward(common.config['around_y'])
             tello.move_right(common.config['around_x'])
+    runs += 1

@@ -38,7 +38,7 @@ def detect_obs_height(tello: Tello) -> int:
     init_tof = tof
     tello.set_speed(10)
     tof_interval: Timer = set_interval(get_tof, 100)
-    while True:  # (tello.get_height() >= common.config["min_height"]):
+    while True:
         if tof <= init_tof - (common.config["max_height"] / 4):
             height = init_tof - tof
             print(f"height: {height}")
