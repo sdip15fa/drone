@@ -8,6 +8,7 @@ tello: Tello = Tello(host=config["ip"])
 
 prev: int = 0
 padId: int = -1
+running: int = -1
 detected: int = -1
 executed: bool = False
 end: bool = False

@@ -42,6 +42,7 @@ def do_operation(pad: int) -> None:
         pad = 1
 
     while pad:
+        common.running = pad
         pad = match_functions(pad)
 
 

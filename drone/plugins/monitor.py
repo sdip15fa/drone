@@ -13,4 +13,5 @@ def monitor() -> dict[str, int]:
     # speed = common.tello.query_speed()
     # print(f"speed: {speed}")
     print(f"mission pad id: {common.padId}")
+    print(f"running: {common.running}")
     return {"height": curr_height, "battery": battery_level, "temperature": temp, "tof": tof}
