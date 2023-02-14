@@ -14,12 +14,14 @@ def around(tello: Tello):
             if common.change:
                 go_to_pad(common.padId)
         print(f"Going around.")
+        x_distance = common.config['around_x'][runs] if runs < len(common.config['around_x']) else common.config['around_x_default']
+        y_distance = common.config['around_y'][runs] if runs < len(common.config['around_y']) else common.config['around_y_default']
         if i % 2 == 0:
-            tello.move_right(common.config['around_x'])
-            tello.move_forward(common.config['around_y'])
-            tello.move_left(common.config['around_x'])
+            tello.move_right(x_distance)
+            tello.move_forward(y_distance)
+            tello.move_left(x_distance)
         else:
-            tello.move_left(common.config['around_x'])
-            tello.move_forward(common.config['around_y'])
-            tello.move_right(common.config['around_x'])
+            tello.move_left(x_distance)
+            tello.move_forward(y_distance)
+            tello.move_right(x_distance)
     runs += 1

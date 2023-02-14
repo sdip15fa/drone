@@ -19,7 +19,7 @@ def get_tof() -> None:
         print(e)
 
 
-def detect_obs_height(tello: Tello) -> int:
+def detect_obs_height(tello: Tello, max_height: int) -> int:
     """
     Detects the height of an obstacle.
     If height is detected, the drone stays at ~20cm lower than the height, and the function returns the height.
@@ -32,7 +32,7 @@ def detect_obs_height(tello: Tello) -> int:
     # original_height = tello.get_distance_tof()
 
     tello.go_xyz_speed_mid(
-        0, 0, common.config['max_height'], common.config['speed'], 5)
+        0, 0, max_height, common.config['speed'], 5)
     init_height = tello.get_height()
     tof = tello.get_distance_tof()
     init_tof = tof
@@ -49,4 +49,4 @@ def detect_obs_height(tello: Tello) -> int:
             2: tello.move_back,
             3: tello.move_left,
             4: tello.move_right,
-        }[common.padId if common.padId in common.pads_permanent else 1](20)
+        }[common.prev if common.prev in common.pads_permanent else 1](20)
