@@ -11,6 +11,8 @@ def go_through(tello: Tello) -> None:
                    else common.config['go_through_change_prev_default']) or common.prev
     max_height = common.config['go_through_max_height'][runs] if runs < len(common.config['go_through_max_height']) \
         else common.config['go_through_max_height_default']
+    max_distance = common.config['go_through_max_distance'][runs] if runs < len(common.config['go_through_max_distance']) \
+        else common.config['go_through_max_distance_default']
     obs_height = detect_obs_height(tello, max_height)
     if not obs_height:
         return
