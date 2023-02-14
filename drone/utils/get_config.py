@@ -31,4 +31,5 @@ def get_config() -> dict[str, str | int | list[int]]:
         'obs_height': eval(os.getenv('OBS_HEIGHT') or '[100]') or [100],
         'obs_height_default': int(os.getenv('OBS_HEIGHT_DEFAULT') or 100) or 100,
         'switch_mode': common.config['switch_mode'] if common and common.mode_switched else int(os.getenv('SWITCH_MODE') or 0) or 0,
+        'tunnel_change_prev': eval(os.getenv('TUNNEL_CHANGE_PREV') or '[]') or []
     }
