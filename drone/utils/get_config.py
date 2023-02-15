@@ -46,9 +46,9 @@ def get_config() -> dict[str, str | int | list[int]]:
         'tunnel_change_prev': eval(os.getenv('TUNNEL_CHANGE_PREV') or '[]') or [],
         'tunnel_change_prev_default': int(os.getenv('TUNNEL_CHANGE_PREV_DEFAULT') or 0) or 0,
         'go_through_max_height': eval(os.getenv('GO_THROUGH_MAX_HEIGHT') or '[]') or [],
-        'go_through_max_height_default': int(os.getenv('GO_THROUGH_MAX_HEIGHT') or 200) or 200,
+        'go_through_max_height_default': int(os.getenv('GO_THROUGH_MAX_HEIGHT_DEFAULT') or 200) or 200,
         'go_through_change_prev': eval(os.getenv('GO_THROUGH_CHANGE_PREV') or '[]') or [],
         'go_through_change_prev_default': int(os.getenv('GO_THROUGH_CHANGE_PREV_DEFAULT') or 0) or 0,
         'go_through_max_distance': eval(os.getenv('GO_THROUGH_MAX_DISTANCE')) or '[]' or [],
-        'go_through_max_distance_default': int(os.getenv('GO_THROUGH_MAX_DISTANCE') or 100) or 100,
+        'go_through_max_distance_default': int(os.getenv('GO_THROUGH_MAX_DISTANCE_DEFAULT') or 100) or 100,
     }
