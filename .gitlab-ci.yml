@@ -1,0 +1,10 @@
+build:
+    stage: build
+    allow_failure: true
+
+test:
+    stage: test
+    allow_failure: true
+
+include:
+  - template: Auto-DevOps.gitlab-ci.yml
