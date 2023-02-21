@@ -12,7 +12,7 @@ def update_pad_id() -> None:
         return
     new_pad_id = common.tello.get_mission_pad_id()
     print(f"detected pad id: {new_pad_id}")
-    if new_pad_id in range(1, 9) and common.detected != new_pad_id:
+    if new_pad_id in range(1, 9) and common.detected != new_pad_id and not (common.padId == new_pad_id and new_pad_id in common.config['blacklist_repeat_pads']):
         # if new_pad_id in range(1, 9) and common.detected == -1:
         #    sleep(1)
         common.detected = new_pad_id
