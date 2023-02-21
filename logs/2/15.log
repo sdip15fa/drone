@@ -1,0 +1,6776 @@
+[INFO] tello.py - 120 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 408 - Send command: 'command'
+[INFO] tello.py - 432 - Response command: 'ok'
+[INFO] tello.py - 408 - Send command: 'sdk?'
+[INFO] tello.py - 432 - Response sdk?: '30'
+[INFO] tello.py - 408 - Send command: 'mon'
+[INFO] tello.py - 432 - Response mon: 'ok'
+[INFO] tello.py - 408 - Send command: 'takeoff'
+[INFO] tello.py - 432 - Response takeoff: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 60'
+[INFO] tello.py - 432 - Response speed 60: 'ok'
+[INFO] tello.py - 408 - Send command: 'up 40'
+[INFO] tello.py - 432 - Response up 40: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 100 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 200 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 200 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 10'
+[INFO] tello.py - 432 - Response speed 10: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+GO_THROUGH_CHANGE_PREV [3]
+Tello connected
+SDK version: 30
+battery: 41%
+enabling mission pads detection
+mission pad id: -1
+Taking off
+Took off
+Moving up to 100cm
+move forward 30cm
+detected pad id: 5
+new pad id 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+go to mission pad 5
+height: 100 cm
+battery: 41%
+temperature: 71.0 °C
+tof distance: 116 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 80 cm
+battery: 41%
+temperature: 71.0 °C
+tof distance: 96 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 160 cm
+battery: 41%
+temperature: 71.0 °C
+tof distance: 189 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+current tof distance: 196
+current tof distance: 195
+detected pad id: 5
+current tof distance: 198
+current tof distance: 194
+detected pad id: 5
+current tof distance: 192
+current tof distance: 193
+detected pad id: 5
+current tof distance: 189
+current tof distance: 190
+detected pad id: 5
+current tof distance: 191
+current tof distance: 187
+detected pad id: 5
+current tof distance: 193
+current tof distance: 193
+detected pad id: 5
+current tof distance: 195
+current tof distance: 196
+detected pad id: 5
+current tof distance: 196
+current tof distance: 194
+height: 170 cm
+battery: 40%
+temperature: 70.0 °C
+tof distance: 194 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 194
+current tof distance: 192
+detected pad id: 5
+current tof distance: 192
+current tof distance: 194
+detected pad id: 5
+current tof distance: 191
+current tof distance: 191
+detected pad id: 5
+current tof distance: 195
+current tof distance: 192
+detected pad id: 5
+current tof distance: 191
+current tof distance: 192
+detected pad id: 5
+current tof distance: 191
+current tof distance: 187
+detected pad id: 5
+current tof distance: 187
+current tof distance: 193
+detected pad id: 5
+current tof distance: 191
+current tof distance: 189
+detected pad id: 5
+current tof distance: 190
+current tof distance: 191
+detected pad id: 5
+current tof distance: 186
+current tof distance: 187
+height: 170 cm
+battery: 39%
+temperature: 70.0 °C
+tof distance: 187 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 190
+current tof distance: 184
+detected pad id: 5
+current tof distance: 185
+current tof distance: 186
+detected pad id: 5
+current tof distance: 187
+current tof distance: 187
+detected pad id: 5
+current tof distance: 191
+current tof distance: 189
+detected pad id: 5
+current tof distance: 194
+current tof distance: 193
+detected pad id: -1
+current tof distance: 187
+current tof distance: 196
+detected pad id: -1
+current tof distance: 190
+current tof distance: 190
+detected pad id: -1
+current tof distance: 190
+current tof distance: 189
+detected pad id: -1
+current tof distance: 183
+current tof distance: 191
+detected pad id: -1
+current tof distance: 191
+current tof distance: 189
+height: 170 cm
+battery: 38%
+temperature: 71.0 °C
+tof distance: 184 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 184
+current tof distance: 186
+detected pad id: -1
+current tof distance: 184
+current tof distance: 185
+detected pad id: -1
+current tof distance: 185
+current tof distance: 187
+detected pad id: -1
+current tof distance: 186
+current tof distance: 189
+detected pad id: -1
+current tof distance: 188
+move forward 30cm
+current tof distance: 191
+detected pad id: -1
+current tof distance: 190
+current tof distance: 189
+detected pad id: -1
+current tof distance: 186
+current tof distance: 183
+detected pad id: -1
+current tof distance: 186
+current tof distance: 183
+detected pad id: -1
+current tof distance: 185
+current tof distance: 188
+detected pad id: -1
+current tof distance: 183
+current tof distance: 182
+height: 170 cm
+battery: 37%
+temperature: 70.5 °C
+tof distance: 182 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 182
+current tof distance: 182
+detected pad id: -1
+current tof distance: 179
+current tof distance: 180
+detected pad id: -1
+current tof distance: 180
+current tof distance: 181
+detected pad id: -1
+current tof distance: 182
+current tof distance: 181
+detected pad id: -1
+current tof distance: 180
+current tof distance: 184
+detected pad id: -1
+move forward 30cm
+current tof distance: 180
+current tof distance: 182
+detected pad id: -1
+current tof distance: 182
+current tof distance: 178
+detected pad id: -1
+current tof distance: 183
+current tof distance: 184
+detected pad id: -1
+current tof distance: 187
+current tof distance: 187
+detected pad id: -1
+current tof distance: 181
+current tof distance: 181
+height: 170 cm
+battery: 36%
+temperature: 70.0 °C
+tof distance: 181 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 185
+current tof distance: 184
+detected pad id: -1
+current tof distance: 185
+current tof distance: 185
+detected pad id: -1
+current tof distance: 117
+current tof distance: 98
+detected pad id: -1
+current tof distance: 100
+current tof distance: 100
+move forward 30cm
+detected pad id: -1
+current tof distance: 100
+current tof distance: 100
+detected pad id: -1
+current tof distance: 102
+current tof distance: 121
+detected pad id: -1
+current tof distance: 107
+current tof distance: 96
+detected pad id: -1
+current tof distance: 93
+current tof distance: 93
+detected pad id: -1
+current tof distance: 93
+current tof distance: 99
+detected pad id: -1
+current tof distance: 96
+current tof distance: 94
+height: 170 cm
+battery: 35%
+temperature: 70.5 °C
+tof distance: 94 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+Traceback (most recent call last):
+  File "/home/wcyat/dev/drone/./drone/index.py", line 9, in <module>
+    main()
+  File "/home/wcyat/dev/drone/drone/main.py", line 24, in main
+    do_operation(common.padId)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 46, in do_operation
+    pad = match_functions(pad)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 89, in match_functions
+    run_pad = execute(forward, False)
+  File "/home/wcyat/dev/drone/drone/utils/execute.py", line 25, in execute
+    func(common.tello)
+  File "/home/wcyat/dev/drone/drone/functions/forward.py", line 8, in forward
+    tello.move_forward(common.config["distance"])
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 622, in move_forward
+    self.move("forward", x)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 587, in move
+    self.send_control_command("{} {}".format(direction, x))
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 450, in send_control_command
+    response = self.send_command_with_return(command, timeout=timeout)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 420, in send_command_with_return
+    time.sleep(0.1)  # Sleep during send command
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+current tof distance: 93
+current tof distance: 93
+detected pad id: -1
+current tof distance: 93
+[INFO] tello.py - 408 - Send command: 'land'
+[INFO] tello.py - 432 - Response land: 'ok'
+[INFO] tello.py - 120 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 408 - Send command: 'command'
+[INFO] tello.py - 432 - Response command: 'ok'
+[INFO] tello.py - 408 - Send command: 'sdk?'
+[INFO] tello.py - 432 - Response sdk?: '30'
+[INFO] tello.py - 408 - Send command: 'mon'
+[INFO] tello.py - 432 - Response mon: 'ok'
+[INFO] tello.py - 408 - Send command: 'takeoff'
+[INFO] tello.py - 432 - Response takeoff: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 60'
+[INFO] tello.py - 432 - Response speed 60: 'ok'
+[INFO] tello.py - 408 - Send command: 'up 30'
+[INFO] tello.py - 432 - Response up 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 100 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 200 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 200 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 10'
+[INFO] tello.py - 432 - Response speed 10: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 23 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 23 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 100 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 60 m8'
+[INFO] tello.py - 432 - Response go 0 0 100 60 m8: 'ok'
+[INFO] tello.py - 408 - Send command: 'land'
+[INFO] tello.py - 432 - Response land: 'ok'
+GO_THROUGH_CHANGE_PREV []
+Tello connected
+SDK version: 30
+battery: 33%
+enabling mission pads detection
+mission pad id: -1
+Taking off
+Took off
+Moving up to 100cm
+move forward 30cm
+detected pad id: 5
+new pad id 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+go to mission pad 5
+height: 100 cm
+battery: 33%
+temperature: 70.0 °C
+tof distance: 115 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 90 cm
+battery: 33%
+temperature: 70.5 °C
+tof distance: 97 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 180 cm
+battery: 33%
+temperature: 69.5 °C
+tof distance: 195 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+detected pad id: 5
+current tof distance: 196
+detected pad id: 5
+current tof distance: 196
+current tof distance: 201
+detected pad id: 5
+current tof distance: 198
+current tof distance: 198
+detected pad id: 5
+current tof distance: 197
+current tof distance: 197
+detected pad id: 5
+current tof distance: 197
+current tof distance: 197
+detected pad id: 5
+current tof distance: 197
+current tof distance: 197
+detected pad id: 5
+current tof distance: 199
+current tof distance: 195
+detected pad id: 5
+current tof distance: 194
+current tof distance: 195
+detected pad id: 5
+current tof distance: 196
+current tof distance: 192
+height: 180 cm
+battery: 33%
+temperature: 70.0 °C
+tof distance: 192 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 192
+current tof distance: 192
+detected pad id: 5
+current tof distance: 193
+current tof distance: 193
+detected pad id: 5
+current tof distance: 188
+current tof distance: 185
+detected pad id: 5
+current tof distance: 185
+current tof distance: 173
+detected pad id: 5
+current tof distance: 165
+current tof distance: 158
+detected pad id: 5
+current tof distance: 152
+current tof distance: 147
+detected pad id: 5
+current tof distance: 145
+current tof distance: 142
+height: 53
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 170 cm
+battery: 32%
+temperature: 69.5 °C
+tof distance: 141 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: -1
+detected pad id: -1
+detected pad id: 5
+new pad id 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 80 cm
+battery: 31%
+temperature: 69.5 °C
+tof distance: 55 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+go to mission pad 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 80 cm
+battery: 30%
+temperature: 69.5 °C
+tof distance: 52 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+move forward 30cm
+detected pad id: 5
+height: 120 cm
+battery: 29%
+temperature: 69.5 °C
+tof distance: 98 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+move forward 30cm
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 130 cm
+battery: 28%
+temperature: 69.5 °C
+tof distance: 93 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+move forward 30cm
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 130 cm
+battery: 27%
+temperature: 69.5 °C
+tof distance: 93 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+move forward 30cm
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 130 cm
+battery: 27%
+temperature: 69.5 °C
+tof distance: 102 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 8
+new pad id 8
+go to mission pad 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+height: 130 cm
+battery: 26%
+temperature: 69.5 °C
+tof distance: 98 cm
+mission pad id: 8
+running: 1
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+land
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+height: 90 cm
+battery: 25%
+temperature: 69.5 °C
+tof distance: 58 cm
+mission pad id: 8
+running: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+[INFO] tello.py - 120 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 408 - Send command: 'command'
+[INFO] tello.py - 432 - Response command: 'ok'
+[INFO] tello.py - 408 - Send command: 'sdk?'
+[INFO] tello.py - 432 - Response sdk?: '30'
+[INFO] tello.py - 408 - Send command: 'mon'
+[INFO] tello.py - 432 - Response mon: 'ok'
+[INFO] tello.py - 408 - Send command: 'takeoff'
+[INFO] tello.py - 432 - Response takeoff: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 60'
+[INFO] tello.py - 432 - Response speed 60: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 60 m5'
+[WARNING] tello.py - 418 - Aborting command 'go 0 0 100 60 m5'. Did not receive a response after 7 seconds
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 100 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 200 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 200 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 10'
+[INFO] tello.py - 432 - Response speed 10: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+GO_THROUGH_CHANGE_PREV []
+Tello connected
+SDK version: 30
+battery: 22%
+enabling mission pads detection
+mission pad id: -1
+Taking off
+Took off
+move forward 30cm
+detected pad id: 5
+new pad id 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+go to mission pad 5
+detected pad id: 5
+height: 80 cm
+battery: 22%
+temperature: 74.0 °C
+tof distance: 79 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 110 cm
+battery: 22%
+temperature: 73.0 °C
+tof distance: 109 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 100 cm
+battery: 22%
+temperature: 73.5 °C
+tof distance: 100 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 90 cm
+battery: 22%
+temperature: 73.0 °C
+tof distance: 100 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 90 cm
+battery: 22%
+temperature: 73.0 °C
+tof distance: 101 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 90 cm
+battery: 22%
+temperature: 72.5 °C
+tof distance: 99 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 150 cm
+battery: 22%
+temperature: 71.5 °C
+tof distance: 171 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+current tof distance: 190
+detected pad id: 5
+current tof distance: 192
+current tof distance: 192
+detected pad id: 5
+current tof distance: 187
+current tof distance: 192
+detected pad id: 5
+current tof distance: 192
+current tof distance: 198
+height: 180 cm
+battery: 22%
+temperature: 72.5 °C
+tof distance: 198 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 195
+current tof distance: 196
+detected pad id: 5
+current tof distance: 198
+current tof distance: 194
+detected pad id: 5
+current tof distance: 168
+current tof distance: 174
+detected pad id: 5
+current tof distance: 172
+current tof distance: 178
+detected pad id: 5
+current tof distance: 192
+current tof distance: 198
+detected pad id: 5
+current tof distance: 163
+current tof distance: 149
+detected pad id: 5
+current tof distance: 144
+current tof distance: 146
+detected pad id: 5
+current tof distance: 150
+current tof distance: 153
+detected pad id: 5
+current tof distance: 168
+current tof distance: 187
+detected pad id: 5
+current tof distance: 195
+current tof distance: 196
+height: 180 cm
+battery: 22%
+temperature: 71.5 °C
+tof distance: 196 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 191
+current tof distance: 191
+detected pad id: 5
+current tof distance: 188
+current tof distance: 191
+detected pad id: 5
+current tof distance: 194
+current tof distance: 190
+detected pad id: 5
+current tof distance: 186
+current tof distance: 188
+detected pad id: 5
+current tof distance: 182
+current tof distance: 182
+detected pad id: 5
+current tof distance: 183
+current tof distance: 182
+detected pad id: -1
+current tof distance: 178
+current tof distance: 171
+detected pad id: -1
+current tof distance: 173
+current tof distance: 176
+detected pad id: -1
+current tof distance: 181
+current tof distance: 182
+detected pad id: -1
+current tof distance: 181
+current tof distance: 177
+height: 170 cm
+battery: 22%
+temperature: 72.0 °C
+tof distance: 177 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 164
+current tof distance: 147
+detected pad id: -1
+current tof distance: 148
+current tof distance: 144
+detected pad id: -1
+current tof distance: 144
+current tof distance: 139
+detected pad id: -1
+current tof distance: 144
+current tof distance: 155
+detected pad id: -1
+current tof distance: 172
+current tof distance: 170
+detected pad id: -1
+move forward 30cm
+current tof distance: 167
+current tof distance: 177
+detected pad id: -1
+current tof distance: 165
+current tof distance: 151
+detected pad id: -1
+current tof distance: 163
+current tof distance: 163
+detected pad id: -1
+current tof distance: 178
+current tof distance: 185
+detected pad id: -1
+current tof distance: 190
+current tof distance: 192
+height: 180 cm
+battery: 21%
+temperature: 71.0 °C
+tof distance: 192 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 195
+current tof distance: 191
+detected pad id: -1
+current tof distance: 194
+current tof distance: 189
+detected pad id: -1
+current tof distance: 173
+current tof distance: 143
+detected pad id: -1
+current tof distance: 141
+move forward 30cm
+current tof distance: 152
+detected pad id: -1
+current tof distance: 157
+current tof distance: 155
+detected pad id: -1
+current tof distance: 154
+current tof distance: 184
+detected pad id: -1
+current tof distance: 156
+current tof distance: 148
+detected pad id: -1
+current tof distance: 143
+current tof distance: 149
+detected pad id: -1
+current tof distance: 160
+current tof distance: 177
+detected pad id: -1
+current tof distance: 190
+current tof distance: 190
+height: 180 cm
+battery: 20%
+temperature: 72.0 °C
+tof distance: 193 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 192
+current tof distance: 192
+detected pad id: -1
+current tof distance: 193
+current tof distance: 192
+detected pad id: -1
+move forward 30cm
+current tof distance: 191
+current tof distance: 188
+detected pad id: -1
+current tof distance: 189
+current tof distance: 186
+detected pad id: -1
+current tof distance: 190
+current tof distance: 187
+detected pad id: -1
+current tof distance: 187
+current tof distance: 189
+detected pad id: -1
+current tof distance: 189
+current tof distance: 186
+detected pad id: -1
+current tof distance: 191
+current tof distance: 190
+detected pad id: -1
+current tof distance: 188
+current tof distance: 190
+detected pad id: -1
+current tof distance: 190
+current tof distance: 185
+height: 180 cm
+battery: 19%
+temperature: 71.5 °C
+tof distance: 185 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+move forward 30cm
+current tof distance: 186
+current tof distance: 191
+detected pad id: -1
+current tof distance: 189
+current tof distance: 190
+detected pad id: -1
+current tof distance: 191
+current tof distance: 196
+detected pad id: -1
+current tof distance: 195
+current tof distance: 195
+detected pad id: -1
+current tof distance: 192
+current tof distance: 192
+detected pad id: -1
+current tof distance: 191
+current tof distance: 183
+detected pad id: -1
+current tof distance: 182
+current tof distance: 172
+detected pad id: -1
+current tof distance: 180
+current tof distance: 180
+detected pad id: -1
+current tof distance: 181
+current tof distance: 190
+detected pad id: -1
+current tof distance: 192
+move forward 30cm
+current tof distance: 197
+height: 180 cm
+battery: 18%
+temperature: 71.5 °C
+tof distance: 197 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 191
+current tof distance: 192
+detected pad id: -1
+current tof distance: 189
+current tof distance: 189
+detected pad id: -1
+current tof distance: 189
+current tof distance: 193
+detected pad id: -1
+current tof distance: 193
+current tof distance: 195
+detected pad id: -1
+current tof distance: 196
+current tof distance: 196
+detected pad id: -1
+current tof distance: 197
+current tof distance: 198
+detected pad id: -1
+current tof distance: 197
+current tof distance: 197
+detected pad id: -1
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+current tof distance: 197
+current tof distance: 199
+detected pad id: -1
+move forward 30cm
+current tof distance: 195
+current tof distance: 194
+detected pad id: -1
+current tof distance: 192
+current tof distance: 190
+height: 180 cm
+battery: 18%
+temperature: 71.5 °C
+tof distance: 190 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 192
+Traceback (most recent call last):
+  File "/home/wcyat/dev/drone/./drone/index.py", line 9, in <module>
+    main()
+  File "/home/wcyat/dev/drone/drone/main.py", line 24, in main
+    do_operation(common.padId)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 46, in do_operation
+    pad = match_functions(pad)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 89, in match_functions
+    run_pad = execute(forward, False)
+  File "/home/wcyat/dev/drone/drone/utils/execute.py", line 25, in execute
+    func(common.tello)
+  File "/home/wcyat/dev/drone/drone/functions/forward.py", line 8, in forward
+    tello.move_forward(common.config["distance"])
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 622, in move_forward
+    self.move("forward", x)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 587, in move
+    self.send_control_command("{} {}".format(direction, x))
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 450, in send_control_command
+    response = self.send_command_with_return(command, timeout=timeout)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 420, in send_command_with_return
+    time.sleep(0.1)  # Sleep during send command
+KeyboardInterrupt
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+current tof distance: 187
+detected pad id: -1
+current tof distance: 186
+[INFO] tello.py - 408 - Send command: 'land'
+[INFO] tello.py - 120 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 408 - Send command: 'command'
+[INFO] tello.py - 432 - Response command: 'ok'
+[INFO] tello.py - 408 - Send command: 'sdk?'
+[INFO] tello.py - 432 - Response sdk?: '30'
+[INFO] tello.py - 408 - Send command: 'mon'
+[INFO] tello.py - 432 - Response mon: 'ok'
+[INFO] tello.py - 408 - Send command: 'takeoff'
+[INFO] tello.py - 432 - Response takeoff: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 60'
+[INFO] tello.py - 432 - Response speed 60: 'ok'
+[INFO] tello.py - 408 - Send command: 'up 40'
+[INFO] tello.py - 432 - Response up 40: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 100 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 200 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 200 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 10'
+[INFO] tello.py - 432 - Response speed 10: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'error Motor stop'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'error Motor stop'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'error Motor stop'
+GO_THROUGH_CHANGE_PREV []
+Tello connected
+SDK version: 30
+battery: 15%
+enabling mission pads detection
+mission pad id: -1
+Taking off
+Took off
+Moving up to 100cm
+move forward 30cm
+detected pad id: 5
+new pad id 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+go to mission pad 5
+height: 100 cm
+battery: 15%
+temperature: 71.5 °C
+tof distance: 122 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 80 cm
+battery: 15%
+temperature: 71.0 °C
+tof distance: 98 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 160 cm
+battery: 15%
+temperature: 71.0 °C
+tof distance: 191 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+current tof distance: 202
+detected pad id: 5
+current tof distance: 201
+current tof distance: 201
+detected pad id: 5
+current tof distance: 205
+current tof distance: 205
+detected pad id: 5
+current tof distance: 204
+current tof distance: 200
+detected pad id: 5
+current tof distance: 197
+current tof distance: 195
+detected pad id: 5
+current tof distance: 199
+current tof distance: 196
+height: 180 cm
+battery: 15%
+temperature: 71.5 °C
+tof distance: 196 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 196
+current tof distance: 196
+detected pad id: 5
+current tof distance: 198
+current tof distance: 200
+detected pad id: 5
+current tof distance: 193
+current tof distance: 195
+detected pad id: 5
+current tof distance: 197
+current tof distance: 198
+detected pad id: 5
+current tof distance: 198
+current tof distance: 197
+detected pad id: 5
+current tof distance: 198
+current tof distance: 199
+detected pad id: 5
+current tof distance: 199
+current tof distance: 199
+detected pad id: 5
+current tof distance: 196
+current tof distance: 198
+detected pad id: 5
+current tof distance: 199
+current tof distance: 198
+detected pad id: 5
+current tof distance: 201
+current tof distance: 196
+height: 170 cm
+battery: 15%
+temperature: 71.5 °C
+tof distance: 198 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 198
+current tof distance: 195
+detected pad id: 5
+current tof distance: 196
+current tof distance: 194
+detected pad id: 5
+current tof distance: 194
+current tof distance: 192
+detected pad id: 5
+current tof distance: 194
+current tof distance: 191
+detected pad id: -1
+current tof distance: 189
+current tof distance: 188
+detected pad id: -1
+current tof distance: 193
+current tof distance: 193
+detected pad id: -1
+current tof distance: 191
+current tof distance: 191
+detected pad id: -1
+current tof distance: 193
+current tof distance: 189
+detected pad id: -1
+current tof distance: 190
+current tof distance: 188
+detected pad id: -1
+current tof distance: 194
+current tof distance: 194
+height: 170 cm
+battery: 15%
+temperature: 70.5 °C
+tof distance: 191 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 191
+current tof distance: 190
+detected pad id: -1
+current tof distance: 190
+current tof distance: 191
+detected pad id: -1
+current tof distance: 192
+current tof distance: 193
+detected pad id: -1
+current tof distance: 194
+current tof distance: 192
+detected pad id: -1
+current tof distance: 191
+current tof distance: 194
+detected pad id: -1
+current tof distance: 194
+current tof distance: 196
+detected pad id: -1
+move forward 30cm
+current tof distance: 198
+current tof distance: 198
+detected pad id: -1
+current tof distance: 197
+current tof distance: 191
+detected pad id: -1
+current tof distance: 194
+current tof distance: 199
+detected pad id: -1
+current tof distance: 193
+current tof distance: 196
+height: 180 cm
+battery: 15%
+temperature: 70.5 °C
+tof distance: 196 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 196
+current tof distance: 193
+detected pad id: -1
+current tof distance: 193
+current tof distance: 192
+detected pad id: -1
+current tof distance: 189
+current tof distance: 188
+detected pad id: -1
+current tof distance: 170
+current tof distance: 145
+detected pad id: -1
+current tof distance: 130
+current tof distance: 99
+detected pad id: -1
+current tof distance: 98
+move forward 30cm
+current tof distance: 100
+detected pad id: -1
+current tof distance: 101
+current tof distance: 100
+detected pad id: -1
+current tof distance: 111
+current tof distance: 113
+detected pad id: -1
+current tof distance: 103
+current tof distance: 99
+detected pad id: -1
+current tof distance: 97
+current tof distance: 96
+height: 170 cm
+battery: 15%
+temperature: 70.0 °C
+tof distance: 95 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 95
+current tof distance: 94
+detected pad id: -1
+current tof distance: 94
+current tof distance: 93
+detected pad id: -1
+current tof distance: 92
+current tof distance: 91
+detected pad id: -1
+current tof distance: 91
+current tof distance: 95
+detected pad id: -1
+current tof distance: 109
+move forward 30cm
+current tof distance: 99
+detected pad id: -1
+current tof distance: 94
+current tof distance: 93
+detected pad id: -1
+current tof distance: 91
+current tof distance: 91
+detected pad id: -1
+current tof distance: 95
+current tof distance: 100
+detected pad id: -1
+current tof distance: 105
+current tof distance: 110
+detected pad id: -1
+current tof distance: 112
+current tof distance: 110
+height: 170 cm
+battery: 14%
+temperature: 70.5 °C
+tof distance: 105 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 105
+current tof distance: 97
+detected pad id: -1
+current tof distance: 89
+current tof distance: 81
+detected pad id: -1
+current tof distance: 72
+move forward 30cm
+current tof distance: 44
+detected pad id: -1
+current tof distance: 33
+current tof distance: 27
+detected pad id: -1
+current tof distance: 25
+current tof distance: 26
+detected pad id: -1
+current tof distance: 28
+current tof distance: 30
+detected pad id: -1
+current tof distance: 31
+current tof distance: 30
+detected pad id: -1
+current tof distance: 28
+current tof distance: 27
+detected pad id: -1
+current tof distance: 27
+current tof distance: 31
+detected pad id: -1
+current tof distance: 33
+current tof distance: 33
+height: 170 cm
+battery: 14%
+temperature: 70.0 °C
+tof distance: 33 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 33
+current tof distance: 37
+detected pad id: -1
+current tof distance: 38
+current tof distance: 36
+detected pad id: -1
+current tof distance: 36
+current tof distance: 36
+detected pad id: -1
+current tof distance: 36
+current tof distance: 37
+detected pad id: -1
+current tof distance: 39
+current tof distance: 42
+detected pad id: -1
+current tof distance: 42
+current tof distance: 41
+detected pad id: -1
+current tof distance: 41
+current tof distance: 50
+detected pad id: -1
+current tof distance: 55
+current tof distance: 53
+detected pad id: -1
+current tof distance: 58
+current tof distance: 91
+detected pad id: -1
+current tof distance: 72
+current tof distance: 50
+height: 0 cm
+battery: 13%
+temperature: 70.5 °C
+tof distance: 50 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+Traceback (most recent call last):
+  File "/home/wcyat/dev/drone/./drone/index.py", line 9, in <module>
+    main()
+  File "/home/wcyat/dev/drone/drone/main.py", line 24, in main
+    do_operation(common.padId)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 46, in do_operation
+    pad = match_functions(pad)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 89, in match_functions
+    run_pad = execute(forward, False)
+  File "/home/wcyat/dev/drone/drone/utils/execute.py", line 25, in execute
+    func(common.tello)
+  File "/home/wcyat/dev/drone/drone/functions/forward.py", line 8, in forward
+    tello.move_forward(common.config["distance"])
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 622, in move_forward
+    self.move("forward", x)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 587, in move
+    self.send_control_command("{} {}".format(direction, x))
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 457, in send_control_command
+    self.raise_result_error(command, response)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 499, in raise_result_error
+    raise TelloException("Command '{}' was unsuccessful for {} tries. Latest response:\t'{}'"
+djitellopy_reduced.tello.TelloException: Command 'forward 30' was unsuccessful for 4 tries. Latest response:	'error Motor stop'
+current tof distance: 139
+detected pad id: -1
+current tof distance: 638
+current tof distance: 179
+detected pad id: -1
+current tof distance: 10
+current tof distance: 42
+detected pad id: -1
+current tof distance: 83
+current tof distance: 10
+detected pad id: -1
+current tof distance: 117
+current tof distance: 159
+detected pad id: -1
+current tof distance: 35
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: -460 cm
+battery: 13%
+temperature: 69.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 38
+detected pad id: -1
+current tof distance: 44
+current tof distance: 61
+detected pad id: -1
+current tof distance: 85
+current tof distance: 122
+detected pad id: -1
+current tof distance: 165
+current tof distance: 160
+height: 70 cm
+battery: 13%
+temperature: 69.5 °C
+tof distance: 160 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 148
+current tof distance: 144
+detected pad id: -1
+current tof distance: 124
+current tof distance: 117
+detected pad id: -1
+current tof distance: 103
+current tof distance: 125
+detected pad id: -1
+current tof distance: 148
+current tof distance: 145
+detected pad id: -1
+current tof distance: 139
+current tof distance: 138
+detected pad id: -1
+current tof distance: 151
+current tof distance: 165
+detected pad id: -1
+current tof distance: 225
+current tof distance: 452
+detected pad id: -1
+current tof distance: 452
+current tof distance: 650
+detected pad id: -1
+current tof distance: 346
+current tof distance: 193
+detected pad id: -1
+current tof distance: 193
+current tof distance: 170
+height: 0 cm
+battery: 13%
+temperature: 70.0 °C
+tof distance: 151 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 151
+current tof distance: 121
+detected pad id: -1
+current tof distance: 117
+current tof distance: 116
+detected pad id: -1
+current tof distance: 106
+current tof distance: 103
+detected pad id: -1
+current tof distance: 54
+current tof distance: 109
+detected pad id: -1
+current tof distance: 105
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 66
+current tof distance: 40
+detected pad id: -1
+current tof distance: 41
+current tof distance: 45
+detected pad id: -1
+current tof distance: 46
+current tof distance: 109
+height: 0 cm
+battery: 13%
+temperature: 70.5 °C
+tof distance: 109 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 117
+current tof distance: 114
+detected pad id: -1
+current tof distance: 114
+current tof distance: 114
+detected pad id: -1
+current tof distance: 102
+current tof distance: 100
+detected pad id: -1
+current tof distance: 32
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 39
+current tof distance: 30
+detected pad id: -1
+current tof distance: 35
+current tof distance: 35
+detected pad id: -1
+current tof distance: 40
+current tof distance: 41
+detected pad id: -1
+current tof distance: 41
+current tof distance: 59
+height: 0 cm
+battery: 13%
+temperature: 69.5 °C
+tof distance: 59 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 83
+current tof distance: 83
+detected pad id: -1
+current tof distance: 83
+current tof distance: 79
+detected pad id: -1
+current tof distance: 75
+current tof distance: 71
+detected pad id: -1
+current tof distance: 69
+current tof distance: 61
+detected pad id: -1
+current tof distance: 61
+current tof distance: 49
+detected pad id: -1
+current tof distance: 38
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 70.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 69.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 69.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 70.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 71.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 70.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 71.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 13%
+temperature: 71.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 71.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 71.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 71.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 71.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 71.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 71.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 71.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 72.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 71.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 71.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 71.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 72.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 12%
+temperature: 72.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+[INFO] tello.py - 408 - Send command: 'land'
+[INFO] tello.py - 120 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 408 - Send command: 'command'
+[INFO] tello.py - 432 - Response command: 'ok'
+[INFO] tello.py - 408 - Send command: 'sdk?'
+[INFO] tello.py - 432 - Response sdk?: '30'
+[INFO] tello.py - 408 - Send command: 'mon'
+[INFO] tello.py - 432 - Response mon: 'ok'
+[INFO] tello.py - 408 - Send command: 'takeoff'
+[INFO] tello.py - 432 - Response takeoff: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 60'
+[INFO] tello.py - 432 - Response speed 60: 'ok'
+[INFO] tello.py - 408 - Send command: 'up 30'
+[INFO] tello.py - 432 - Response up 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 60 m5'
+[WARNING] tello.py - 418 - Aborting command 'go 0 0 100 60 m5'. Did not receive a response after 7 seconds
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 100 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 150 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 150 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 10'
+[INFO] tello.py - 432 - Response speed 10: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'error Auto land'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'error Auto land'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'error Auto land'
+GO_THROUGH_CHANGE_PREV []
+Tello connected
+SDK version: 30
+battery: 12%
+enabling mission pads detection
+mission pad id: -1
+Taking off
+Took off
+Moving up to 100cm
+move forward 30cm
+detected pad id: 5
+new pad id 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+go to mission pad 5
+detected pad id: 5
+detected pad id: 5
+height: 100 cm
+battery: 12%
+temperature: 71.5 °C
+tof distance: 111 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 90 cm
+battery: 12%
+temperature: 72.0 °C
+tof distance: 97 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 90 cm
+battery: 12%
+temperature: 71.0 °C
+tof distance: 100 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 90 cm
+battery: 12%
+temperature: 71.0 °C
+tof distance: 100 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 120 cm
+battery: 11%
+temperature: 71.5 °C
+tof distance: 133 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 140 cm
+battery: 10%
+temperature: 71.5 °C
+tof distance: 152 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 151
+detected pad id: 5
+current tof distance: 151
+current tof distance: 153
+detected pad id: 5
+current tof distance: 153
+current tof distance: 153
+detected pad id: 5
+current tof distance: 151
+current tof distance: 152
+detected pad id: 5
+current tof distance: 156
+current tof distance: 153
+detected pad id: 5
+current tof distance: 153
+current tof distance: 155
+detected pad id: 5
+current tof distance: 154
+current tof distance: 155
+detected pad id: 5
+current tof distance: 155
+current tof distance: 154
+detected pad id: 5
+current tof distance: 154
+current tof distance: 157
+detected pad id: 5
+current tof distance: 158
+current tof distance: 157
+height: 140 cm
+battery: 9%
+temperature: 71.0 °C
+tof distance: 161 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 161
+current tof distance: 161
+detected pad id: 5
+current tof distance: 163
+current tof distance: 163
+detected pad id: 5
+current tof distance: 163
+current tof distance: 163
+detected pad id: 5
+current tof distance: 166
+current tof distance: 162
+detected pad id: 5
+current tof distance: 162
+current tof distance: 164
+detected pad id: 5
+current tof distance: 163
+current tof distance: 163
+detected pad id: 5
+current tof distance: 162
+current tof distance: 162
+detected pad id: 5
+current tof distance: 158
+current tof distance: 159
+detected pad id: 5
+current tof distance: 161
+current tof distance: 157
+detected pad id: 5
+current tof distance: 157
+current tof distance: 157
+height: 150 cm
+battery: 9%
+temperature: 71.0 °C
+tof distance: 157 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 157
+Traceback (most recent call last):
+  File "/home/wcyat/dev/drone/./drone/index.py", line 9, in <module>
+    main()
+  File "/home/wcyat/dev/drone/drone/main.py", line 24, in main
+    do_operation(common.padId)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 46, in do_operation
+    pad = match_functions(pad)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 98, in match_functions
+    run_pad = execute(go_through, True)
+  File "/home/wcyat/dev/drone/drone/utils/execute.py", line 20, in execute
+    func(common.tello)
+  File "/home/wcyat/dev/drone/drone/functions/go_through.py", line 16, in go_through
+    obs_height = detect_obs_height(tello, max_height, max_distance)
+  File "/home/wcyat/dev/drone/drone/utils/detect_obs_height.py", line 63, in detect_obs_height
+    {
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 622, in move_forward
+    self.move("forward", x)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 587, in move
+    self.send_control_command("{} {}".format(direction, x))
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 457, in send_control_command
+    self.raise_result_error(command, response)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 499, in raise_result_error
+    raise TelloException("Command '{}' was unsuccessful for {} tries. Latest response:\t'{}'"
+djitellopy_reduced.tello.TelloException: Command 'forward 20' was unsuccessful for 4 tries. Latest response:	'error Auto land'
+current tof distance: 153
+detected pad id: 5
+current tof distance: 154
+current tof distance: 155
+detected pad id: 5
+current tof distance: 153
+current tof distance: 147
+detected pad id: 5
+current tof distance: 141
+current tof distance: 137
+detected pad id: 5
+current tof distance: 130
+current tof distance: 123
+detected pad id: 5
+current tof distance: 116
+current tof distance: 109
+detected pad id: 5
+current tof distance: 103
+current tof distance: 96
+detected pad id: 5
+current tof distance: 90
+current tof distance: 85
+detected pad id: 5
+current tof distance: 80
+current tof distance: 75
+detected pad id: 5
+current tof distance: 70
+current tof distance: 66
+height: 60 cm
+battery: 9%
+temperature: 71.0 °C
+tof distance: 66 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 62
+current tof distance: 58
+detected pad id: 5
+current tof distance: 54
+current tof distance: 50
+detected pad id: 5
+current tof distance: 46
+current tof distance: 42
+detected pad id: 5
+current tof distance: 38
+current tof distance: 34
+detected pad id: 5
+current tof distance: 32
+current tof distance: 30
+detected pad id: 5
+current tof distance: 28
+current tof distance: 28
+detected pad id: -1
+current tof distance: 27
+current tof distance: 27
+detected pad id: -1
+current tof distance: 27
+current tof distance: 28
+detected pad id: -1
+current tof distance: 28
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 30
+height: 20 cm
+battery: 9%
+temperature: 70.5 °C
+tof distance: 30 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 30
+current tof distance: 31
+detected pad id: -1
+current tof distance: 31
+current tof distance: 31
+detected pad id: -1
+current tof distance: 31
+current tof distance: 32
+detected pad id: -1
+current tof distance: 32
+current tof distance: 32
+detected pad id: -1
+current tof distance: 31
+current tof distance: 32
+detected pad id: -1
+current tof distance: 32
+current tof distance: 31
+detected pad id: -1
+current tof distance: 31
+current tof distance: 31
+detected pad id: -1
+current tof distance: 31
+current tof distance: 31
+detected pad id: -1
+current tof distance: 31
+current tof distance: 31
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+height: 20 cm
+battery: 9%
+temperature: 70.5 °C
+tof distance: 30 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 31
+current tof distance: 31
+detected pad id: -1
+current tof distance: 31
+current tof distance: 31
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 31
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+height: 20 cm
+battery: 9%
+temperature: 71.0 °C
+tof distance: 30 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 30
+detected pad id: -1
+current tof distance: 30
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+height: 20 cm
+battery: 9%
+temperature: 70.0 °C
+tof distance: 29 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 28
+current tof distance: 28
+detected pad id: -1
+current tof distance: 28
+current tof distance: 28
+detected pad id: -1
+current tof distance: 28
+current tof distance: 28
+detected pad id: -1
+current tof distance: 28
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+height: 20 cm
+battery: 9%
+temperature: 70.0 °C
+tof distance: 29 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+height: 20 cm
+battery: 9%
+temperature: 70.5 °C
+tof distance: 29 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 28
+detected pad id: -1
+current tof distance: 28
+current tof distance: 28
+detected pad id: -1
+current tof distance: 28
+current tof distance: 28
+detected pad id: -1
+current tof distance: 28
+current tof distance: 28
+detected pad id: -1
+current tof distance: 28
+current tof distance: 28
+height: 20 cm
+battery: 9%
+temperature: 70.0 °C
+tof distance: 28 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 29
+detected pad id: -1
+current tof distance: 29
+current tof distance: 28
+detected pad id: -1
+current tof distance: 27
+current tof distance: 25
+detected pad id: -1
+current tof distance: 22
+current tof distance: 19
+detected pad id: -1
+current tof distance: 15
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 69.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 69.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 31
+current tof distance: 43
+detected pad id: -1
+current tof distance: 58
+current tof distance: 94
+detected pad id: -1
+current tof distance: 180
+current tof distance: 108
+detected pad id: -1
+current tof distance: 137
+current tof distance: 294
+height: 60 cm
+battery: 8%
+temperature: 69.5 °C
+tof distance: 294 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 684
+current tof distance: 709
+detected pad id: -1
+current tof distance: 719
+current tof distance: 793
+detected pad id: -1
+current tof distance: 705
+current tof distance: 396
+detected pad id: -1
+current tof distance: 291
+current tof distance: 251
+detected pad id: -1
+current tof distance: 287
+current tof distance: 354
+detected pad id: -1
+current tof distance: 305
+current tof distance: 379
+detected pad id: -1
+current tof distance: 516
+current tof distance: 546
+detected pad id: -1
+current tof distance: 479
+current tof distance: 443
+detected pad id: -1
+current tof distance: 475
+current tof distance: 579
+detected pad id: -1
+current tof distance: 646
+current tof distance: 783
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 783 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 514
+current tof distance: 502
+detected pad id: -1
+current tof distance: 459
+current tof distance: 686
+detected pad id: -1
+current tof distance: 325
+current tof distance: 159
+detected pad id: -1
+current tof distance: 628
+current tof distance: 137
+detected pad id: -1
+current tof distance: 375
+current tof distance: 602
+detected pad id: -1
+current tof distance: 859
+current tof distance: 682
+detected pad id: -1
+current tof distance: 126
+current tof distance: 830
+detected pad id: -1
+current tof distance: 409
+current tof distance: 578
+detected pad id: -1
+current tof distance: 316
+current tof distance: 316
+detected pad id: -1
+current tof distance: 139
+current tof distance: 10
+height: 10 cm
+battery: 8%
+temperature: 69.5 °C
+tof distance: 96 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 96
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 88
+detected pad id: -1
+current tof distance: 39
+current tof distance: 10
+detected pad id: -1
+current tof distance: 58
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: -60 cm
+battery: 8%
+temperature: 69.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 6553
+detected pad id: -1
+current tof distance: 37
+current tof distance: 37
+detected pad id: -1
+current tof distance: 6553
+current tof distance: 6553
+detected pad id: -1
+current tof distance: 6553
+current tof distance: 36
+detected pad id: -1
+current tof distance: 94
+current tof distance: 94
+detected pad id: -1
+current tof distance: 97
+current tof distance: 719
+detected pad id: -1
+current tof distance: 719
+current tof distance: 637
+detected pad id: -1
+current tof distance: 555
+current tof distance: 555
+detected pad id: -1
+current tof distance: 482
+current tof distance: 112
+height: 30 cm
+battery: 8%
+temperature: 69.5 °C
+tof distance: 112 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 112
+current tof distance: 463
+detected pad id: -1
+current tof distance: 55
+current tof distance: 213
+detected pad id: -1
+current tof distance: 144
+current tof distance: 111
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 35
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 44
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 8%
+temperature: 70.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 5
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+[INFO] tello.py - 408 - Send command: 'land'
+[INFO] tello.py - 120 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 408 - Send command: 'command'
+[WARNING] tello.py - 418 - Aborting command 'command'. Did not receive a response after 7 seconds
+[INFO] tello.py - 408 - Send command: 'command'
+GO_THROUGH_CHANGE_PREV []
+Traceback (most recent call last):
+  File "/home/wcyat/dev/drone/./drone/index.py", line 9, in <module>
+    main()
+  File "/home/wcyat/dev/drone/drone/main.py", line 11, in main
+    init_drone()
+  File "/home/wcyat/dev/drone/drone/utils/init_drone.py", line 6, in init_drone
+    common.tello.connect(True)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 505, in connect
+    self.send_control_command("command")
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 450, in send_control_command
+    response = self.send_command_with_return(command, timeout=timeout)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 411, in send_command_with_return
+    client_socket.sendto(command.encode('utf-8'), self.address)
+OSError: [Errno 101] Network is unreachable
+[INFO] tello.py - 120 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 408 - Send command: 'command'
+GO_THROUGH_CHANGE_PREV []
+Traceback (most recent call last):
+  File "/home/wcyat/dev/drone/./drone/index.py", line 9, in <module>
+    main()
+  File "/home/wcyat/dev/drone/drone/main.py", line 11, in main
+    init_drone()
+  File "/home/wcyat/dev/drone/drone/utils/init_drone.py", line 6, in init_drone
+    common.tello.connect(True)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 505, in connect
+    self.send_control_command("command")
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 450, in send_control_command
+    response = self.send_command_with_return(command, timeout=timeout)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 411, in send_command_with_return
+    client_socket.sendto(command.encode('utf-8'), self.address)
+OSError: [Errno 101] Network is unreachable
+[INFO] tello.py - 120 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 408 - Send command: 'command'
+[INFO] tello.py - 432 - Response command: 'ok'
+[INFO] tello.py - 408 - Send command: 'sdk?'
+[INFO] tello.py - 432 - Response sdk?: '30'
+[INFO] tello.py - 408 - Send command: 'mon'
+[INFO] tello.py - 432 - Response mon: 'ok'
+[INFO] tello.py - 408 - Send command: 'takeoff'
+[INFO] tello.py - 432 - Response takeoff: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 60'
+[INFO] tello.py - 432 - Response speed 60: 'ok'
+[INFO] tello.py - 408 - Send command: 'up 30'
+[INFO] tello.py - 432 - Response up 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 60 m5'
+[WARNING] tello.py - 418 - Aborting command 'go 0 0 100 60 m5'. Did not receive a response after 7 seconds
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 100 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 150 60 m5'
+[INFO] tello.py - 432 - Response go 0 0 150 60 m5: 'ok'
+[INFO] tello.py - 408 - Send command: 'speed 10'
+[INFO] tello.py - 432 - Response speed 10: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 20'
+[INFO] tello.py - 432 - Response forward 20: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+GO_THROUGH_CHANGE_PREV []
+Tello connected
+SDK version: 30
+battery: 93%
+enabling mission pads detection
+mission pad id: -1
+Taking off
+Took off
+Moving up to 100cm
+move forward 30cm
+detected pad id: 5
+new pad id 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+go to mission pad 5
+detected pad id: 5
+detected pad id: 5
+height: 100 cm
+battery: 89%
+temperature: 64.5 °C
+tof distance: 112 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 80 cm
+battery: 88%
+temperature: 65.5 °C
+tof distance: 100 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 80 cm
+battery: 87%
+temperature: 65.0 °C
+tof distance: 101 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 80 cm
+battery: 86%
+temperature: 65.0 °C
+tof distance: 100 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 80 cm
+battery: 85%
+temperature: 64.5 °C
+tof distance: 97 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 80 cm
+battery: 84%
+temperature: 65.5 °C
+tof distance: 98 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 80 cm
+battery: 83%
+temperature: 65.0 °C
+tof distance: 98 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+detected pad id: 5
+height: 130 cm
+battery: 82%
+temperature: 66.0 °C
+tof distance: 148 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+detected pad id: 5
+current tof distance: 147
+detected pad id: 5
+current tof distance: 149
+current tof distance: 150
+detected pad id: 5
+current tof distance: 150
+current tof distance: 148
+detected pad id: 5
+current tof distance: 149
+current tof distance: 149
+detected pad id: 5
+current tof distance: 150
+current tof distance: 148
+detected pad id: 5
+current tof distance: 149
+current tof distance: 148
+detected pad id: 5
+current tof distance: 150
+current tof distance: 149
+detected pad id: 5
+current tof distance: 149
+current tof distance: 147
+detected pad id: 5
+current tof distance: 149
+current tof distance: 148
+height: 130 cm
+battery: 81%
+temperature: 66.0 °C
+tof distance: 148 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 150
+current tof distance: 146
+detected pad id: 5
+current tof distance: 148
+current tof distance: 148
+detected pad id: 5
+current tof distance: 149
+current tof distance: 145
+detected pad id: 5
+current tof distance: 148
+current tof distance: 146
+detected pad id: 5
+current tof distance: 147
+current tof distance: 146
+detected pad id: 5
+current tof distance: 146
+current tof distance: 145
+detected pad id: 5
+current tof distance: 147
+current tof distance: 146
+detected pad id: 5
+current tof distance: 147
+current tof distance: 148
+detected pad id: 5
+current tof distance: 149
+current tof distance: 147
+detected pad id: 5
+current tof distance: 148
+current tof distance: 147
+height: 130 cm
+battery: 80%
+temperature: 65.5 °C
+tof distance: 147 cm
+mission pad id: 5
+running: 5
+detected pad id: 5
+current tof distance: 151
+current tof distance: 149
+detected pad id: 5
+current tof distance: 150
+current tof distance: 153
+detected pad id: 5
+current tof distance: 152
+current tof distance: 152
+detected pad id: 5
+current tof distance: 151
+current tof distance: 150
+detected pad id: 5
+current tof distance: 149
+current tof distance: 150
+detected pad id: 5
+current tof distance: 151
+current tof distance: 151
+detected pad id: 5
+current tof distance: 148
+current tof distance: 148
+detected pad id: 5
+current tof distance: 147
+current tof distance: 147
+detected pad id: 5
+current tof distance: 145
+current tof distance: 147
+detected pad id: 5
+move forward 30cm
+current tof distance: 144
+current tof distance: 143
+height: 130 cm
+battery: 79%
+temperature: 65.5 °C
+tof distance: 143 cm
+mission pad id: 5
+running: 1
+detected pad id: 5
+current tof distance: 143
+current tof distance: 143
+detected pad id: 5
+current tof distance: 141
+current tof distance: 141
+detected pad id: -1
+current tof distance: 144
+current tof distance: 140
+detected pad id: -1
+current tof distance: 143
+current tof distance: 140
+detected pad id: -1
+current tof distance: 142
+current tof distance: 143
+detected pad id: -1
+current tof distance: 142
+current tof distance: 143
+detected pad id: -1
+current tof distance: 141
+current tof distance: 140
+detected pad id: -1
+current tof distance: 133
+current tof distance: 142
+detected pad id: -1
+move forward 30cm
+current tof distance: 101
+current tof distance: 68
+detected pad id: -1
+current tof distance: 71
+current tof distance: 86
+height: 130 cm
+battery: 78%
+temperature: 65.0 °C
+tof distance: 86 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 81
+current tof distance: 75
+detected pad id: -1
+current tof distance: 71
+current tof distance: 65
+detected pad id: -1
+current tof distance: 63
+current tof distance: 63
+detected pad id: -1
+current tof distance: 63
+current tof distance: 65
+detected pad id: -1
+current tof distance: 64
+current tof distance: 56
+detected pad id: -1
+current tof distance: 52
+current tof distance: 49
+detected pad id: -1
+current tof distance: 48
+move forward 30cm
+current tof distance: 48
+detected pad id: -1
+current tof distance: 48
+current tof distance: 48
+detected pad id: -1
+current tof distance: 47
+current tof distance: 47
+detected pad id: -1
+current tof distance: 47
+current tof distance: 47
+height: 130 cm
+battery: 77%
+temperature: 64.5 °C
+tof distance: 47 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 46
+current tof distance: 46
+detected pad id: -1
+current tof distance: 46
+current tof distance: 46
+detected pad id: -1
+current tof distance: 46
+current tof distance: 46
+detected pad id: -1
+current tof distance: 47
+current tof distance: 50
+detected pad id: -1
+move forward 30cm
+current tof distance: 51
+current tof distance: 52
+detected pad id: -1
+current tof distance: 52
+current tof distance: 53
+detected pad id: -1
+current tof distance: 55
+current tof distance: 56
+detected pad id: -1
+current tof distance: 58
+current tof distance: 60
+detected pad id: -1
+current tof distance: 62
+current tof distance: 65
+detected pad id: -1
+current tof distance: 66
+current tof distance: 67
+height: 140 cm
+battery: 76%
+temperature: 65.0 °C
+tof distance: 67 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 68
+current tof distance: 68
+detected pad id: -1
+current tof distance: 69
+current tof distance: 75
+detected pad id: -1
+current tof distance: 82
+current tof distance: 89
+detected pad id: -1
+current tof distance: 94
+current tof distance: 93
+detected pad id: -1
+current tof distance: 93
+current tof distance: 99
+detected pad id: -1
+current tof distance: 90
+current tof distance: 100
+detected pad id: -1
+current tof distance: 96
+current tof distance: 93
+detected pad id: -1
+current tof distance: 90
+current tof distance: 90
+detected pad id: -1
+current tof distance: 94
+current tof distance: 93
+detected pad id: -1
+current tof distance: 94
+current tof distance: 96
+height: 120 cm
+battery: 76%
+temperature: 65.0 °C
+tof distance: 96 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 97
+[INFO] tello.py - 432 - Response forward 30: 'error Motor stop'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'error Motor stop'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'error Motor stop'
+current tof distance: 97
+detected pad id: -1
+current tof distance: 97
+current tof distance: 96
+detected pad id: -1
+current tof distance: 95
+current tof distance: 97
+detected pad id: -1
+current tof distance: 96
+current tof distance: 96
+detected pad id: -1
+current tof distance: 91
+current tof distance: 73
+detected pad id: -1
+current tof distance: 94
+current tof distance: 98
+detected pad id: -1
+current tof distance: 103
+current tof distance: 103
+detected pad id: -1
+current tof distance: 104
+current tof distance: 105
+detected pad id: -1
+current tof distance: 106
+current tof distance: 106
+detected pad id: -1
+current tof distance: 105
+current tof distance: 105
+height: 140 cm
+battery: 75%
+temperature: 66.0 °C
+tof distance: 105 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 105
+current tof distance: 104
+detected pad id: -1
+current tof distance: 128
+current tof distance: 180
+detected pad id: -1
+current tof distance: 330
+Traceback (most recent call last):
+  File "/home/wcyat/dev/drone/./drone/index.py", line 9, in <module>
+    main()
+  File "/home/wcyat/dev/drone/drone/main.py", line 24, in main
+    do_operation(common.padId)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 46, in do_operation
+    pad = match_functions(pad)
+  File "/home/wcyat/dev/drone/drone/utils/do_operation.py", line 89, in match_functions
+    run_pad = execute(forward, False)
+  File "/home/wcyat/dev/drone/drone/utils/execute.py", line 25, in execute
+    func(common.tello)
+  File "/home/wcyat/dev/drone/drone/functions/forward.py", line 8, in forward
+    tello.move_forward(common.config["distance"])
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 622, in move_forward
+    self.move("forward", x)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 587, in move
+    self.send_control_command("{} {}".format(direction, x))
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 457, in send_control_command
+    self.raise_result_error(command, response)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/enforce_types.py", line 54, in wrapper
+    return func(*args, **kwargs)
+  File "/home/wcyat/.cache/pypoetry/virtualenvs/drone-7scQFb49-py3.10/lib/python3.10/site-packages/djitellopy_reduced/tello.py", line 499, in raise_result_error
+    raise TelloException("Command '{}' was unsuccessful for {} tries. Latest response:\t'{}'"
+djitellopy_reduced.tello.TelloException: Command 'forward 30' was unsuccessful for 4 tries. Latest response:	'error Motor stop'
+current tof distance: 329
+detected pad id: -1
+current tof distance: 439
+current tof distance: 40
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: -60 cm
+battery: 74%
+temperature: 65.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 37
+current tof distance: 48
+detected pad id: -1
+current tof distance: 59
+current tof distance: 56
+detected pad id: -1
+current tof distance: 48
+current tof distance: 159
+detected pad id: -1
+current tof distance: 159
+current tof distance: 227
+detected pad id: -1
+current tof distance: 134
+current tof distance: 103
+height: 100 cm
+battery: 74%
+temperature: 65.5 °C
+tof distance: 103 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 134
+current tof distance: 150
+detected pad id: -1
+current tof distance: 170
+current tof distance: 6553
+detected pad id: -1
+current tof distance: 6553
+current tof distance: 181
+detected pad id: -1
+current tof distance: 254
+current tof distance: 211
+detected pad id: -1
+current tof distance: 154
+current tof distance: 138
+detected pad id: -1
+current tof distance: 152
+current tof distance: 149
+detected pad id: -1
+current tof distance: 91
+current tof distance: 39
+detected pad id: -1
+current tof distance: 110
+current tof distance: 99
+detected pad id: -1
+current tof distance: 144
+current tof distance: 140
+detected pad id: -1
+current tof distance: 150
+current tof distance: 141
+height: 130 cm
+battery: 74%
+temperature: 65.5 °C
+tof distance: 141 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 137
+current tof distance: 134
+detected pad id: -1
+current tof distance: 133
+current tof distance: 131
+detected pad id: -1
+current tof distance: 128
+current tof distance: 116
+detected pad id: -1
+current tof distance: 116
+current tof distance: 118
+detected pad id: -1
+current tof distance: 122
+current tof distance: 120
+detected pad id: -1
+current tof distance: 122
+current tof distance: 125
+detected pad id: -1
+current tof distance: 126
+current tof distance: 125
+detected pad id: -1
+current tof distance: 126
+current tof distance: 121
+detected pad id: -1
+current tof distance: 118
+current tof distance: 123
+detected pad id: -1
+current tof distance: 108
+current tof distance: 47
+height: 0 cm
+battery: 74%
+temperature: 65.5 °C
+tof distance: 47 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 48
+current tof distance: 49
+detected pad id: -1
+current tof distance: 49
+current tof distance: 53
+detected pad id: -1
+current tof distance: 69
+current tof distance: 60
+detected pad id: -1
+current tof distance: 61
+current tof distance: 78
+detected pad id: -1
+current tof distance: 92
+current tof distance: 76
+detected pad id: -1
+current tof distance: 68
+current tof distance: 65
+detected pad id: -1
+current tof distance: 66
+current tof distance: 69
+detected pad id: -1
+current tof distance: 6553
+current tof distance: 100
+detected pad id: -1
+current tof distance: 6553
+current tof distance: 146
+detected pad id: -1
+current tof distance: 172
+current tof distance: 36
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 36 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 38
+detected pad id: -1
+current tof distance: 100
+current tof distance: 82
+detected pad id: -1
+current tof distance: 64
+current tof distance: 57
+detected pad id: -1
+current tof distance: 50
+current tof distance: 34
+detected pad id: -1
+current tof distance: 32
+current tof distance: 33
+detected pad id: -1
+current tof distance: 35
+current tof distance: 34
+detected pad id: -1
+current tof distance: 33
+current tof distance: 33
+detected pad id: -1
+current tof distance: 33
+current tof distance: 33
+detected pad id: -1
+current tof distance: 33
+current tof distance: 33
+height: 0 cm
+battery: 74%
+temperature: 65.5 °C
+tof distance: 33 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 51
+current tof distance: 37
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 172
+detected pad id: -1
+current tof distance: 54
+current tof distance: 60
+detected pad id: -1
+current tof distance: 59
+current tof distance: 537
+detected pad id: -1
+current tof distance: 223
+current tof distance: 203
+detected pad id: -1
+current tof distance: 175
+current tof distance: 34
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 82
+current tof distance: 84
+detected pad id: -1
+current tof distance: 6553
+current tof distance: 6553
+detected pad id: -1
+current tof distance: 208
+current tof distance: 67
+detected pad id: -1
+current tof distance: 65
+current tof distance: 407
+detected pad id: -1
+current tof distance: 187
+current tof distance: 65
+detected pad id: -1
+current tof distance: 68
+current tof distance: 300
+detected pad id: -1
+current tof distance: 458
+current tof distance: 701
+detected pad id: -1
+current tof distance: 338
+current tof distance: 6553
+detected pad id: -1
+current tof distance: 6553
+current tof distance: 121
+detected pad id: -1
+current tof distance: 116
+current tof distance: 95
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 95 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 75
+current tof distance: 10
+detected pad id: -1
+current tof distance: 67
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.5 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+rent tof distance: 1current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+height: 0 cm
+battery: 74%
+temperature: 65.0 °C
+tof distance: 10 cm
+mission pad id: 5
+running: 1
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+current tof distance: 10
+current tof distance: 10
+detected pad id: -1
+[INFO] tello.py - 408 - Send command: 'land'
