@@ -49,6 +49,7 @@ def get_config() -> dict[str, str | int | list[int]]:
         'go_through_max_height_default': int(os.getenv('GO_THROUGH_MAX_HEIGHT_DEFAULT') or 200) or 200,
         'go_through_change_prev': eval(os.getenv('GO_THROUGH_CHANGE_PREV') or '[]') or [],
         'go_through_change_prev_default': int(os.getenv('GO_THROUGH_CHANGE_PREV_DEFAULT') or 0) or 0,
-        'go_through_max_distance': eval(os.getenv('GO_THROUGH_MAX_DISTANCE')) or '[]' or [],
+        'go_through_max_distance': eval(os.getenv('GO_THROUGH_MAX_DISTANCE') or '[]') or [],
         'go_through_max_distance_default': int(os.getenv('GO_THROUGH_MAX_DISTANCE_DEFAULT') or 100) or 100,
+        'blacklist_repeat_pads': eval(os.getenv('BLACKLIST_REPEAT_PADS') or '[]') or []
     }
