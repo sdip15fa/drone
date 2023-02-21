@@ -55,7 +55,7 @@ def detect_obs_height(tello: Tello, max_height: int, max_distance: int) -> int:
     flew_distance: int = 0
 
     while flew_distance < max_distance:
-        if tof <= init_tof - (common.config["max_height"] / 4):
+        if tof <= init_tof - (max_height / 4):
             height = init_tof - tof
             print(f"height: {height}")
             tof_interval.cancel()
