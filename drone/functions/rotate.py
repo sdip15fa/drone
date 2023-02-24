@@ -9,4 +9,5 @@ def rotate(tello: Tello) -> None:
     times = common.config["rotate_times"]
     for _ in range(times[runs] if runs < len(times) else common.config["rotate_times_default"]):
         tello.rotate_clockwise(30)
+    common.prev = common.config['rotate_change_prev'][runs] if runs < len(common.config['rotate_change_prev']) else common.prev
     runs += 1
