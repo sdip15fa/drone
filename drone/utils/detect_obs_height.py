@@ -35,7 +35,7 @@ def detect_obs_height(tello: Tello, max_height: int, max_distance: int) -> int:
     :param tello: Tello: Access the tello object
     :param max_height: int: Set the maximum height of the drone
     :param max_distance: int: Limit the distance that the drone will fly
-    :return: The height of the obstacle
+    :return: The height of an obstacle
     :doc-author: Trelent
     """
     global obs_height, tof
@@ -60,12 +60,7 @@ def detect_obs_height(tello: Tello, max_height: int, max_distance: int) -> int:
             print(f"height: {height}")
             tof_interval.cancel()
             return height
-        {
-            1: tello.move_forward,
-            2: tello.move_back,
-            3: tello.move_left,
-            4: tello.move_right,
-        }[common.prev if common.prev in common.pads_permanent else 1](20)
+        common.directions_funcs(common.direction)(20)
         flew_distance += 20
     
     return None

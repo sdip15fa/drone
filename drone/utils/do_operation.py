@@ -27,7 +27,7 @@ def do_operation(pad: int) -> None:
     pad number and executes all of the functions that are associated with that pad
     number. The do_operation function also checks to see if there is a change in 
     the config file, and if so, it will update its values.
-    
+
     :param pad: int: Determine which pad to go to
     :return: None
     :doc-author: Trelent
@@ -50,7 +50,7 @@ def match_functions(pad: int) -> int:
     """
     The match_functions function is a switch statement that matches the current mode to the corresponding function.
     The match_functions function also handles switching between modes and pads.
-    
+
     :param pad: int: the pad id
     :return: the next pad id to be run, otherwise 0
     :doc-author: Trelent
@@ -60,20 +60,20 @@ def match_functions(pad: int) -> int:
         case 1:
             match pad:
                 case 1:
-                    run_pad = execute(forward, False)
+                    run_pad = execute(forward)
                 case 2:
-                    run_pad = execute(back, False)
+                    run_pad = execute(back)
                 case 3:
-                    run_pad = execute(left, False)
+                    run_pad = execute(left)
                 case 4:
-                    run_pad = execute(right, False)
+                    run_pad = execute(right)
                 case 5:
-                    run_pad = execute(up, True)
+                    run_pad = execute(up)
                 case 6:
-                    run_pad = execute(down, True)
+                    run_pad = execute(down)
                 case 7:
-                    run_pad = execute(around, True)
-                    # rerun_pad = execute(circle, True)
+                    run_pad = execute(around)
+                    # run_pad = execute(circle)
                 case 8:
                     if common.config['switch_mode']:
                         common.config['mode'] = 2
@@ -82,25 +82,25 @@ def match_functions(pad: int) -> int:
                         common.pads_permanent = [
                             1, 2, 4] if common.config['mode'] == 2 else list(range(1, 5))
                     else:
-                        run_pad = execute(land, True)
+                        run_pad = execute(land)
         case 2:
             match pad:
                 case 1:
-                    run_pad = execute(forward, False)
+                    run_pad = execute(forward)
                 case 2:
-                    # rerun_pad = execute(back, False)
-                    run_pad = execute(tunnel, True)
+                    # run_pad = execute(back)
+                    run_pad = execute(tunnel)
                 case 3:
-                    run_pad = execute(left, False)
+                    run_pad = execute(left)
                 case 4:
-                    run_pad = execute(right, False)
+                    run_pad = execute(right)
                 case 5:
-                    run_pad = execute(go_through, True)
-                    # rerun_pad = execute(go_through_predefined_heights, True)
+                    run_pad = execute(go_through)
+                    # run_pad = execute(go_through_predefined_heights)
                 case 6:
-                    run_pad = execute(rotate, True)
+                    run_pad = execute(rotate)
                 case 7:
-                    run_pad = execute(around, True)
+                    run_pad = execute(around)
                 case 8:
                     if common.config['switch_mode']:
                         common.config['mode'] = 1
@@ -109,5 +109,5 @@ def match_functions(pad: int) -> int:
                         common.pads_permanent = [
                             1, 2, 4] if common.config['mode'] == 2 else list(range(1, 5))
                     else:
-                        run_pad = execute(land, True)
+                        run_pad = execute(land)
     return run_pad

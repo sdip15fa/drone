@@ -1,10 +1,16 @@
 from time import sleep
 import drone.common as common
 
+pads: int = 0
+
 
 def on_change() -> None:
+    global pads
     common.executed = False
     common.change = True
+    pads += 1
+    common.direction = (common.config['direction'][pads] if pads < len(
+        common.config['direction']) else common.direction) or 1
 
 
 def update_pad_id() -> None:
