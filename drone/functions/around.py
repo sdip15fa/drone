@@ -16,8 +16,8 @@ def around(tello: Tello):
             if common.change:
                 go_to_pad(common.padId)
         print(f"Going around.")
-        x_distance = common.config['around_x'][runs] if runs < len(common.config['around_x']) else common.config['around_x_default']
-        y_distance = common.config['around_y'][runs] if runs < len(common.config['around_y']) else common.config['around_y_default']
+        x_distance = common.config['around_x'][around_runs] if around_runs < len(common.config['around_x']) else common.config['around_x_default']
+        y_distance = common.config['around_y'][around_runs] if around_runs < len(common.config['around_y']) else common.config['around_y_default']
         for _ in range(circle_times[runs] if runs < len(circle_times) else common.config['around_circle_times_default']):
             tello.move_right(x_distance)
             tello.move_forward(y_distance)
