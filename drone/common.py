@@ -2,6 +2,10 @@ from djitellopy_reduced import Tello
 from typing import Callable
 
 from drone.utils.get_config import get_config
+from drone.functions.forward import forward
+from drone.functions.back import back
+from drone.functions.left import left
+from drone.functions.right import right
 
 config = get_config()
 
@@ -24,7 +28,7 @@ pads_permanent: list[int] = [
 direction: int = config['direction_default'] or 1
 
 
-def directions_funcs(dir: int) -> Callable:
+def directions_funcs(dir: int, exec: bool = False) -> Callable:
     """
     The directions function is a decorator that takes an integer as input.
     The integer corresponds to the direction in which the drone will move.
@@ -35,7 +39,7 @@ def directions_funcs(dir: int) -> Callable:
     :return: A function that can be called using the tello object
     :doc-author: Trelent
     """
-    functions = [tello.move_forward, tello.move_back,
+    functions = [forward, back, left, right] if exec else [tello.move_forward, tello.move_back,
                  tello.move_left, tello.move_right]
     func = functions[dir - 1 if dir - 1 < len(function) else 0]
     return func

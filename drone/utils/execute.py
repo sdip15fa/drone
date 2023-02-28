@@ -22,5 +22,5 @@ def execute(func: Callable) -> int:
         common.executed = True
         return run_pad
     else:
-        common.directions_funcs(common.direction or 1)        
+        common.directions_funcs(common.direction or 1, True)(common.tello)    
         return 0
