@@ -7,3 +7,4 @@ def down(tello: Tello):
     tello.move_down(common.config["height"])
     common.config["init_height"] -= common.config["height"]
     common.height_changed = True
+    common.executed = True

@@ -41,5 +41,5 @@ def directions_funcs(dir: int, exec: bool = False) -> Callable:
     """
     functions = [forward, back, left, right] if exec else [tello.move_forward, tello.move_back,
                  tello.move_left, tello.move_right]
-    func = functions[dir - 1 if dir - 1 < len(function) else 0]
+    func = functions[dir - 1 if dir - 1 < len(functions) else 0]
     return func

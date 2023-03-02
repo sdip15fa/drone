@@ -17,10 +17,13 @@ def execute(func: Callable) -> int:
     if common.end:
         return 0
 
+    print("executed", common.executed)
+
     if not common.executed:
-        run_pad = func(common.tello)
-        common.executed = True
-        return run_pad
+        print("running the function")
+        func(common.tello)
+#        return run_pad
     else:
+        print("direction", common.direction)
         common.directions_funcs(common.direction or 1, True)(common.tello)    
         return 0

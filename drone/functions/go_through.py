@@ -33,4 +33,5 @@ def go_through(tello: Tello) -> None:
     if not obs_height:
         return common.running
 
+    common.executed = True
     runs += 1

@@ -7,4 +7,5 @@ def up(tello: Tello):
     tello.move_up(common.config["height"])
     common.config["init_height"] += common.config["height"]
     common.height_changed = True
+    common.executed = True
     

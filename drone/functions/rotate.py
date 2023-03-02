@@ -17,4 +17,5 @@ def rotate(tello: Tello) -> None:
     times = common.config["rotate_times"]
     for _ in range(times[runs] if runs < len(times) else common.config["rotate_times_default"]):
         tello.rotate_clockwise(30)
+    common.executed = True
     runs += 1
