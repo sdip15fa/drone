@@ -25,10 +25,16 @@ def go_through(tello: Tello) -> None:
     max_distance = common.config['go_through_max_distance'][runs] if runs < len(common.config['go_through_max_distance']) \
         else common.config['go_through_max_distance_default']
 
-    obs_height = detect_obs_height(tello, max_height, max_distance)
+    obs_height: 0
+
+    if common.config['go_through_use_predefined']:
+        obs_height = common.config['go_through_obs_height'][runs] if runs < len(common.config['go_through_obs_height']) \
+            else common.config['go_through_obs_height_default']
+    else:
+        obs_height = detect_obs_height(tello, max_height, max_distance)
 
     tello.go_xyz_speed_mid(
-        0, 0, (obs_height - 15 if obs_height - 15 >= 20 else 20) if obs_height else init_height, common.config['speed'], common.running)
+        0, 0, (obs_height - 20 if obs_height - 20 >= 20 else 20) if obs_height else init_height, common.config['speed'], common.running)
 
     if not obs_height:
         return common.running

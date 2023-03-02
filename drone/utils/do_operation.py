@@ -15,7 +15,6 @@ from drone.functions.around import around
 from drone.functions.circle import circle
 from drone.functions.land import land
 from drone.functions.go_through import go_through
-from drone.functions.go_through_predefined_heights import go_through_predefined_heights
 from drone.functions.tunnel import tunnel
 from drone.functions.snake import snake
 from drone.functions.rotate import rotate
@@ -96,7 +95,6 @@ def match_functions(pad: int) -> int:
                     run_pad = execute(right)
                 case 5:
                     run_pad = execute(go_through)
-                    # run_pad = execute(go_through_predefined_heights)
                 case 6:
                     run_pad = execute(rotate)
                 case 7:
