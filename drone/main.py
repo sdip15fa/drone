@@ -1,3 +1,4 @@
+from time import sleep
 import drone.common as common
 from threading import Timer
 from drone.plugins.monitor import monitor
@@ -21,4 +22,8 @@ def main() -> None:
         # elif KeyboardInterrupt:
         #    common.tello.land()
         else:
-            do_operation(common.padId)
+            sleep(1)
+            try:
+                do_operation(common.padId)
+            except Exception as e:
+                print(e)

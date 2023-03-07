@@ -1,0 +1,1141 @@
+/home/wcyat/.local/lib/python3.10/site-packages/requests/__init__.py:102: RequestsDependencyWarning: urllib3 (1.26.12) or chardet (5.1.0)/charset_normalizer (2.0.12) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({})/charset_normalizer ({}) doesn't match a supported "
+[INFO] tello.py - 120 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 408 - Send command: 'command'
+[INFO] tello.py - 432 - Response command: 'ok'
+[INFO] tello.py - 408 - Send command: 'sdk?'
+[INFO] tello.py - 432 - Response sdk?: '30'
+[INFO] tello.py - 408 - Send command: 'mon'
+[INFO] tello.py - 432 - Response mon: 'ok'
+[INFO] tello.py - 408 - Send command: 'takeoff'
+[INFO] tello.py - 432 - Response takeoff: 'ok'
+[INFO] tello.py - 408 - Send command: 'tof?'
+[INFO] tello.py - 432 - Response tof?: '806mm'
+[INFO] tello.py - 408 - Send command: 'speed 100'
+[INFO] tello.py - 432 - Response speed 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'up 30'
+[INFO] tello.py - 432 - Response up 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m2'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m2: 'ok'
+[INFO] tello.py - 408 - Send command: 'tof?'
+[INFO] tello.py - 432 - Response tof?: '1106mm'
+[INFO] tello.py - 408 - Send command: 'go 0 0 30 20 m2'
+[INFO] tello.py - 432 - Response go 0 0 30 20 m2: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 250'
+[INFO] tello.py - 432 - Response forward 250: 'ok'
+[INFO] tello.py - 408 - Send command: 'left 80'
+[INFO] tello.py - 432 - Response left 80: 'ok'
+[INFO] tello.py - 408 - Send command: 'back 250'
+[INFO] tello.py - 432 - Response back 250: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m2'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m2: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 30 20 m2'
+[INFO] tello.py - 432 - Response go 0 0 30 20 m2: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 250'
+[INFO] tello.py - 432 - Response forward 250: 'ok'
+[INFO] tello.py - 408 - Send command: 'up 50'
+[INFO] tello.py - 432 - Response up 50: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 30'
+[INFO] tello.py - 432 - Response forward 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m7'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m7: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 100'
+[INFO] tello.py - 432 - Response forward 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'left 150'
+[INFO] tello.py - 432 - Response left 150: 'ok'
+[INFO] tello.py - 408 - Send command: 'back 200'
+[INFO] tello.py - 432 - Response back 200: 'ok'
+[INFO] tello.py - 408 - Send command: 'right 150'
+[INFO] tello.py - 432 - Response right 150: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 100'
+[INFO] tello.py - 432 - Response forward 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m7'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m7: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 100'
+[INFO] tello.py - 432 - Response forward 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'left 150'
+Tello connected
+SDK version: 30
+battery: 29%
+enabling mission pads detection
+mission pad id: -1
+Taking off
+Took off
+Moving up to 100cm
+detected pad id: 2
+new pad id 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+direction 1
+go to mission pad 2
+detected pad id: 2
+executed False
+running the function
+tunnel
+detected pad id: 2
+tunnel height 110.6
+detected pad id: 2
+detected pad id: 2
+height: 100 cm
+battery: 29%
+temperature: 78.5 °C
+tof distance: 104 cm
+x: 2
+y: -6
+z: 107
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 30 cm
+battery: 29%
+temperature: 78.5 °C
+tof distance: 33 cm
+x: -6
+y: -12
+z: 53
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 30 cm
+battery: 29%
+temperature: 78.0 °C
+tof distance: 38 cm
+x: -6
+y: -12
+z: 53
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 30 cm
+battery: 29%
+temperature: 77.0 °C
+tof distance: 32 cm
+x: -6
+y: -12
+z: 53
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 20 cm
+battery: 29%
+temperature: 78.0 °C
+tof distance: 30 cm
+x: -6
+y: -12
+z: 53
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+go to mission pad 2
+detected pad id: 2
+detected pad id: 2
+height: 30 cm
+battery: 29%
+temperature: 76.5 °C
+tof distance: 33 cm
+x: -6
+y: -12
+z: 53
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 80 cm
+battery: 29%
+temperature: 77.0 °C
+tof distance: 17 cm
+x: -6
+y: -12
+z: 53
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 80 cm
+battery: 29%
+temperature: 77.0 °C
+tof distance: 94 cm
+x: -5
+y: -10
+z: 103
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 60 cm
+battery: 28%
+temperature: 76.5 °C
+tof distance: 71 cm
+x: 11
+y: -10
+z: 97
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 10 cm
+battery: 27%
+temperature: 76.0 °C
+tof distance: 30 cm
+x: 7
+y: -9
+z: 43
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 10 cm
+battery: 27%
+temperature: 76.0 °C
+tof distance: 30 cm
+x: 7
+y: -9
+z: 43
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 10 cm
+battery: 26%
+temperature: 76.0 °C
+tof distance: 30 cm
+x: 7
+y: -9
+z: 43
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 40 cm
+battery: 25%
+temperature: 76.0 °C
+tof distance: 63 cm
+x: 7
+y: -9
+z: 43
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 60 cm
+battery: 24%
+temperature: 75.5 °C
+tof distance: 76 cm
+x: 7
+y: -9
+z: 43
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+executed True
+direction 1
+move forward 30cm
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 60 cm
+battery: 23%
+temperature: 76.0 °C
+tof distance: 79 cm
+x: 7
+y: -9
+z: 43
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 60 cm
+battery: 22%
+temperature: 75.0 °C
+tof distance: 80 cm
+x: 7
+y: -9
+z: 43
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+executed True
+direction 1
+move forward 30cm
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+height: 60 cm
+battery: 22%
+temperature: 74.5 °C
+tof distance: 79 cm
+x: 7
+y: -9
+z: 43
+mission pad id: 2
+running: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+detected pad id: 2
+executed True
+direction 1
+move forward 30cm
+detected pad id: 7
+new pad id 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 60 cm
+battery: 21%
+temperature: 75.0 °C
+tof distance: 80 cm
+x: -18
+y: -20
+z: 84
+mission pad id: 7
+running: 2
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+direction 3
+go to mission pad 7
+executed False
+running the function
+Going around.
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 70 cm
+battery: 21%
+temperature: 75.5 °C
+tof distance: 90 cm
+x: 8
+y: -11
+z: 82
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 80 cm
+battery: 21%
+temperature: 74.5 °C
+tof distance: 94 cm
+x: 4
+y: 0
+z: 93
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 80 cm
+battery: 21%
+temperature: 75.0 °C
+tof distance: 97 cm
+x: -11
+y: -8
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 90 cm
+battery: 20%
+temperature: 74.0 °C
+tof distance: 23 cm
+x: -53
+y: -17
+z: 87
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+go to mission pad 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 90 cm
+battery: 20%
+temperature: 74.5 °C
+tof distance: 21 cm
+x: -53
+y: -17
+z: 87
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 100 cm
+battery: 19%
+temperature: 74.0 °C
+tof distance: 113 cm
+x: -53
+y: -17
+z: 87
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 100 cm
+battery: 19%
+temperature: 73.5 °C
+tof distance: 115 cm
+x: -53
+y: -17
+z: 87
+mission pad id: 7
+running: 7
+detected pad id: 7
+[INFO] tello.py - 432 - Response left 150: 'ok'
+[INFO] tello.py - 408 - Send command: 'back 200'
+[INFO] tello.py - 432 - Response back 200: 'ok'
+[INFO] tello.py - 408 - Send command: 'right 150'
+[INFO] tello.py - 432 - Response right 150: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 100'
+[INFO] tello.py - 432 - Response forward 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m7'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m7: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 100'
+[INFO] tello.py - 432 - Response forward 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'left 150'
+[INFO] tello.py - 432 - Response left 150: 'ok'
+[INFO] tello.py - 408 - Send command: 'back 100'
+[INFO] tello.py - 432 - Response back 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'left 30'
+[INFO] tello.py - 432 - Response left 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'left 30'
+[INFO] tello.py - 432 - Response left 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'left 30'
+[INFO] tello.py - 432 - Response left 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'left 30'
+[INFO] tello.py - 432 - Response left 30: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m8'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m8: 'ok'
+[INFO] tello.py - 408 - Send command: 'land'
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 90 cm
+battery: 18%
+temperature: 73.5 °C
+tof distance: 110 cm
+x: -66
+y: -3
+z: 106
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 100 cm
+battery: 18%
+temperature: 73.0 °C
+tof distance: 115 cm
+x: -66
+y: -3
+z: 106
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 100 cm
+battery: 18%
+temperature: 73.0 °C
+tof distance: 117 cm
+x: -66
+y: -3
+z: 106
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 100 cm
+battery: 17%
+temperature: 73.5 °C
+tof distance: 112 cm
+x: -66
+y: -3
+z: 106
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 100 cm
+battery: 17%
+temperature: 74.0 °C
+tof distance: 117 cm
+x: -66
+y: -3
+z: 106
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 90 cm
+battery: 16%
+temperature: 73.0 °C
+tof distance: 110 cm
+x: -66
+y: -3
+z: 106
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 90 cm
+battery: 16%
+temperature: 74.0 °C
+tof distance: 30 cm
+x: -66
+y: -3
+z: 106
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 90 cm
+battery: 16%
+temperature: 74.0 °C
+tof distance: 24 cm
+x: -66
+y: -3
+z: 106
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 100 cm
+battery: 16%
+temperature: 74.0 °C
+tof distance: 31 cm
+x: -66
+y: -3
+z: 106
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+go to mission pad 7
+height: 100 cm
+battery: 16%
+temperature: 73.5 °C
+tof distance: 32 cm
+x: -100
+y: -100
+z: -100
+mission pad id: 7
+running: 7
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+height: 100 cm
+battery: 16%
+temperature: 73.5 °C
+tof distance: 109 cm
+x: -100
+y: -100
+z: -100
+mission pad id: 7
+running: 7
+detected pad id: -1
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 80 cm
+battery: 15%
+temperature: 74.0 °C
+tof distance: 94 cm
+x: -6
+y: -1
+z: 94
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 80 cm
+battery: 15%
+temperature: 73.5 °C
+tof distance: 96 cm
+x: 27
+y: 25
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 90 cm
+battery: 15%
+temperature: 73.5 °C
+tof distance: 98 cm
+x: 27
+y: 25
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 90 cm
+battery: 15%
+temperature: 72.5 °C
+tof distance: 101 cm
+x: 27
+y: 25
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 80 cm
+battery: 15%
+temperature: 73.0 °C
+tof distance: 52 cm
+x: 27
+y: 25
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 90 cm
+battery: 15%
+temperature: 72.5 °C
+tof distance: 58 cm
+x: 27
+y: 25
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+executed True
+direction 3
+move left 30cm
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 80 cm
+battery: 15%
+temperature: 73.0 °C
+tof distance: 36 cm
+x: 27
+y: 25
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 80 cm
+battery: 15%
+temperature: 73.0 °C
+tof distance: 101 cm
+x: 27
+y: 25
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+executed True
+direction 3
+move left 30cm
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 80 cm
+battery: 14%
+temperature: 73.0 °C
+tof distance: 98 cm
+x: 27
+y: 25
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 80 cm
+battery: 14%
+temperature: 73.5 °C
+tof distance: 98 cm
+x: 27
+y: 25
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+executed True
+direction 3
+move left 30cm
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 80 cm
+battery: 14%
+temperature: 72.5 °C
+tof distance: 96 cm
+x: 27
+y: 25
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+height: 80 cm
+battery: 13%
+temperature: 73.0 °C
+tof distance: 100 cm
+x: 27
+y: 25
+z: 92
+mission pad id: 7
+running: 7
+detected pad id: 7
+detected pad id: 7
+executed True
+direction 3
+move left 30cm
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: 7
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+height: 80 cm
+battery: 13%
+temperature: 73.5 °C
+tof distance: 96 cm
+x: -100
+y: -100
+z: -100
+mission pad id: 7
+running: 7
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: -1
+detected pad id: 8
+new pad id 8
+direction 1
+go to mission pad 8
+height: 80 cm
+battery: 13%
+temperature: 74.0 °C
+tof distance: 98 cm
+x: -8
+y: -14
+z: 93
+mission pad id: 8
+running: 7
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+executed False
+running the function
+land
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+height: 80 cm
+[INFO] tello.py - 432 - Response land: 'ok'
+battery: 12%
+temperature: 73.0 °C
+tof distance: 93 cm
+x: 0
+y: -4
+z: 93
+mission pad id: 8
+running: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+height: 0 cm
+battery: 12%
+temperature: 73.0 °C
+tof distance: 10 cm
+x: 2
+y: 8
+z: 53
+mission pad id: 8
+running: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+detected pad id: 8
+height: 0 cm
+battery: 11%
+temperature: 74.0 °C
+tof distance: 10 cm
+x: 2
+y: 8
+z: 53
+mission pad id: 8
+running: 8
+eee f fd5d6

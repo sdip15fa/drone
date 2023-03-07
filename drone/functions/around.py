@@ -1,5 +1,6 @@
+from time import sleep
 import drone.common as common
-from drone.common import directions_funcs
+from drone.utils.directions_funcs import directions_funcs
 from djitellopy_reduced import Tello
 
 from drone.utils.go_to_pad import go_to_pad
@@ -22,9 +23,13 @@ def around(tello: Tello):
         y_distance = common.config['around_y'][around_runs] if around_runs < len(common.config['around_y']) else common.config['around_y_default']
         for _ in range(circle_times[runs] if runs < len(circle_times) else common.config['around_circle_times_default']):
             directions_funcs(dir_right(common.direction))(x_distance)
+            sleep(2)
             directions_funcs(common.direction)(y_distance)
+            sleep(2)
             directions_funcs(dir_left(common.direction))(2 * x_distance)
+            sleep(2)
             directions_funcs(dir_back(common.direction))(y_distance)
+            sleep(2)
             directions_funcs(dir_right(common.direction))(x_distance)
             go_to_pad(common.running)
         if i % 2 == 0:

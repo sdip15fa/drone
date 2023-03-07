@@ -1,5 +1,6 @@
 import drone.common as common
 from time import sleep
+from drone.plugins.update_pad_id import on_change
 from drone.utils.get_config import get_config
 from drone.utils.go_to_pad import go_to_pad
 from drone.utils.execute import execute
@@ -36,13 +37,15 @@ def do_operation(pad: int) -> None:
     if pad in range(1, 9):
         if common.change:
             # sleep(5)
+            on_change()
             go_to_pad(pad)
     else:
         pad = 1
 
     while pad:
         common.running = pad
-        pad = match_functions(pad)
+        pad = match_functions(pad) or 0
+        sleep(1)
 
 
 def match_functions(pad: int) -> int:

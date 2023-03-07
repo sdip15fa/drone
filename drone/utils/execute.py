@@ -1,5 +1,6 @@
 import drone.common as common
 from typing import Callable
+from drone.utils.directions_funcs import directions_funcs
 
 
 def execute(func: Callable) -> int:
@@ -25,5 +26,5 @@ def execute(func: Callable) -> int:
 #        return run_pad
     else:
         print("direction", common.direction)
-        common.directions_funcs(common.direction or 1, True)(common.tello)    
+        directions_funcs(common.direction or 1, True)(common.tello)    
         return 0

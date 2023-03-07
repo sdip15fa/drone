@@ -1,3 +1,4 @@
+from time import sleep
 import drone.common as common
 
 
@@ -20,6 +21,14 @@ def init_drone() -> None:
     print("Taking off")
     common.tello.takeoff()
     print("Took off")
+
+    while True:
+        try:
+            if common.tello.query_distance_tof() >= 10:
+                break
+        except:
+            pass
+        sleep(1)
 
     common.tello.set_speed(common.config["speed"])
 

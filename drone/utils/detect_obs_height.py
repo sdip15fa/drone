@@ -1,6 +1,8 @@
 from threading import Timer
 from djitellopy_reduced import Tello
 import drone.common as common
+from drone.utils.directions_funcs import directions_funcs
+
 
 from drone.lib import set_interval
 
@@ -60,7 +62,7 @@ def detect_obs_height(tello: Tello, max_height: int, max_distance: int) -> int:
             print(f"height: {height}")
             tof_interval.cancel()
             return height
-        common.directions_funcs(common.direction)(20)
+        directions_funcs(common.direction)(20)
         flew_distance += 20
     
     return None

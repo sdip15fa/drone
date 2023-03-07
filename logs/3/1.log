@@ -1632,3 +1632,25 @@ detected pad id: -1
 detected pad id: -1
 detected pad id: -1
 [INFO] tello.py - 408 - Send command: 'land'
+/home/wcyat/.local/lib/python3.10/site-packages/requests/__init__.py:102: RequestsDependencyWarning: urllib3 (1.26.12) or chardet (5.1.0)/charset_normalizer (2.0.12) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({})/charset_normalizer ({}) doesn't match a supported "
+/home/wcyat/.local/lib/python3.10/site-packages/requests/__init__.py:102: RequestsDependencyWarning: urllib3 (1.26.12) or chardet (5.1.0)/charset_normalizer (2.0.12) doesn't match a supported version!
+  warnings.warn("urllib3 ({}) or chardet ({})/charset_normalizer ({}) doesn't match a supported "
+Traceback (most recent call last):
+  File "/home/wcyat/dev/drone/./drone/land.py", line 16, in <module>
+    main()
+  File "/home/wcyat/dev/drone/./drone/land.py", line 7, in main
+    load_dotenv()
+  File "/home/wcyat/dev/drone/.venv/lib/python3.10/site-packages/dotenv/main.py", line 346, in load_dotenv
+    return dotenv.set_as_environment_variables()
+  File "/home/wcyat/dev/drone/.venv/lib/python3.10/site-packages/dotenv/main.py", line 91, in set_as_environment_variables
+    if not self.dict():
+  File "/home/wcyat/dev/drone/.venv/lib/python3.10/site-packages/dotenv/main.py", line 75, in dict
+    self._dict = OrderedDict(resolve_variables(raw_values, override=self.override))
+  File "/home/wcyat/dev/drone/.venv/lib/python3.10/site-packages/dotenv/main.py", line 244, in resolve_variables
+    env.update(os.environ)  # type: ignore
+  File "/usr/lib/python3.10/_collections_abc.py", line 886, in __iter__
+    yield from self._mapping
+  File "/usr/lib/python3.10/os.py", line 702, in __iter__
+    yield self.decodekey(key)
+KeyboardInterrupt

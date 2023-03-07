@@ -1,5 +1,5 @@
 import drone.common as common
-from drone.common import directions_funcs
+from drone.utils.directions_funcs import directions_funcs
 from djitellopy_reduced import Tello
 
 from drone.utils.go_to_pad import go_to_pad

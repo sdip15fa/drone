@@ -7,7 +7,6 @@ pads: int = 0
 def on_change() -> None:
     global pads
     common.executed = False
-    common.change = True
     common.direction = (common.config['direction'][pads] if pads < len(
         common.config['direction']) else common.direction) or 1
     print("direction", common.direction)
@@ -26,6 +25,6 @@ def update_pad_id() -> None:
         common.prev = common.padId
         common.padId = new_pad_id
         print("new pad id", common.padId)
-        on_change()
+        common.change = True
     else:
         common.detected = new_pad_id
