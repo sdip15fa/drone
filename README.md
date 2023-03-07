@@ -153,7 +153,7 @@ Auto land. The program is exited after that.
 
 #### 1
 
-[Forward](#forward)
+Do nothing.
 
 #### 2
 
@@ -161,19 +161,20 @@ Auto land. The program is exited after that.
 
 #### 3
 
-[Left](#left)
-
-#### 4
-
-[Right](#right)
-
-#### 5
 
 [Go through](#go-through)
 
-#### 6
+#### 4
 
 [Rotate](#rotate)
+
+#### 5
+
+[Up](#up)
+
+#### 6
+
+[Down](#down)
 
 #### 7
 

@@ -43,6 +43,7 @@ def do_operation(pad: int) -> None:
         pad = 1
 
     while pad:
+        common.lastrun = common.running
         common.running = pad
         pad = match_functions(pad) or 0
         sleep(1)
@@ -88,18 +89,18 @@ def match_functions(pad: int) -> int:
         case 2:
             match pad:
                 case 1:
-                    run_pad = execute(forward)
+                    # do nothing, just used to change direction if needed
+                    run_pad = execute(lambda tello: 0)
                 case 2:
-                    # run_pad = execute(back)
                     run_pad = execute(tunnel)
                 case 3:
-                    run_pad = execute(left)
-                case 4:
-                    run_pad = execute(right)
-                case 5:
                     run_pad = execute(go_through)
-                case 6:
+                case 4:
                     run_pad = execute(rotate)
+                case 5:
+                    run_pad = execute(up)
+                case 6:
+                    run_pad = execute(down)
                 case 7:
                     run_pad = execute(around)
                 case 8:
