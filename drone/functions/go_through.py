@@ -33,7 +33,7 @@ def go_through(tello: Tello) -> None:
     back = common.config['go_through_back'][runs] if runs < len(common.config['go_through_back']) \
         else common.config['go_through_back_default']
 
-    obs_height: int = 0 if common.config['go_through_use_predefined'] else ((common.config['go_through_obs_height'][runs] if runs < len(common.config['go_through_obs_height'])
+    obs_height: int = 0 if not common.config['go_through_use_predefined'] else ((common.config['go_through_obs_height'][runs] if runs < len(common.config['go_through_obs_height'])
                                                                             else common.config['go_through_obs_height_default']) or common.config['go_through_obs_height_default'])
 
     obs_y_distance: int = (common.config['go_through_obs_y_distance'][runs] if runs < len(common.config['go_through_obs_y_distance'])
