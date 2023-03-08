@@ -161,7 +161,6 @@ Do nothing.
 
 #### 3
 
-
 [Go through](#go-through)
 
 #### 4

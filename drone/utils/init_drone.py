@@ -28,7 +28,7 @@ def init_drone() -> None:
                 break
         except:
             pass
-        sleep(1)
+        # sleep(1)
 
     common.tello.set_speed(common.config["speed"])
 

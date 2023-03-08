@@ -43,14 +43,10 @@ def tunnel(tello: Tello) -> None:
                 # from up
                 tello.move_up(height + 20)
         
-        sleep(1)
         directions_funcs(dir_back(common.direction))(y_distance)
-        sleep(1)
         go_to_pad(common.running)
-        sleep(1)
         tello.go_xyz_speed_mid(0, 0, 30, 20, common.running)
 
-    sleep(1)
     directions_funcs(common.direction)(y_distance)
     tello.move_up(common.config['height'])
 

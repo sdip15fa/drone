@@ -46,7 +46,7 @@ def do_operation(pad: int) -> None:
         common.lastrun = common.running
         common.running = pad
         pad = match_functions(pad) or 0
-        sleep(1)
+        # sleep(1)
 
 
 def match_functions(pad: int) -> int:
