@@ -26,9 +26,11 @@ def tunnel(tello: Tello) -> None:
     print("tunnel height", tello.query_distance_tof())
     tello.go_xyz_speed_mid(0, 0, 30, 20, common.running)
 
-    if back_mode:
-        directions_funcs(common.direction)(y_distance)
+    directions_funcs(common.direction)(y_distance)
+    if common.change:
+        go_to_pad(common.padId)
 
+    if back_mode:
         match back_mode:
             case 0:
                 pass
@@ -47,7 +49,6 @@ def tunnel(tello: Tello) -> None:
         go_to_pad(common.running)
         tello.go_xyz_speed_mid(0, 0, 30, 20, common.running)
 
-    directions_funcs(common.direction)(y_distance)
     tello.move_up(50)
 
     runs += 1
