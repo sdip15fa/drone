@@ -9,8 +9,8 @@ def on_change() -> None:
     common.executed = False
     common.direction = (common.config['direction'][pads] if pads < len(
         common.config['direction']) else common.direction) or common.config["direction_default"]
-    common.height = (common.config['height'][pads] if pads < len(
-        common.config['height']) else common.height) or common.config["height_default"]
+    # common.height = (common.config['height'][pads] if pads < len(
+    #     common.config['height']) else common.height) or common.config["height_default"]
     print("direction", common.direction)
     pads += 1
 

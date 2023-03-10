@@ -48,7 +48,7 @@ def tunnel(tello: Tello) -> None:
         tello.go_xyz_speed_mid(0, 0, 30, 20, common.running)
 
     directions_funcs(common.direction)(y_distance)
-    tello.move_up(common.config['height'])
+    tello.move_up(50)
 
     runs += 1
     common.executed = True

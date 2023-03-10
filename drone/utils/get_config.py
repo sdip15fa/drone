@@ -19,7 +19,6 @@ def get_config() -> dict[str, str | int | list[int]]:
         common = None
 
     return {
-        'height': int(os.getenv('HEIGHT') or 100) or 100,
         'around_times': eval(os.getenv('AROUND_TIMES') or '[]') or [],
         'around_times_default': int(os.getenv('AROUND_TIMES_DEFAULT') or 1) or 1,
         'around_x': eval(os.getenv('AROUND_X') or '[]') or [],
@@ -72,4 +71,5 @@ def get_config() -> dict[str, str | int | list[int]]:
         'up_height_default': int(os.getenv('UP_HEIGHT_DEFAULT') or 50) or 50,
         'down_height': eval(os.getenv('DOWN_HEIGHT') or '[]') or [],
         'down_height_default': int(os.getenv('DOWN_HEIGHT_DEFAULT') or 50) or 50,
+        'alias': eval(os.getenv('ALIAS') or '[]') or [],
     }
