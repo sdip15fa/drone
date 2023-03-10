@@ -1,11 +1,5 @@
 from djitellopy_reduced import Tello
-from typing import Callable
-
 from drone.utils.get_config import get_config
-from drone.functions.forward import forward
-from drone.functions.back import back
-from drone.functions.left import left
-from drone.functions.right import right
 
 config = get_config()
 
