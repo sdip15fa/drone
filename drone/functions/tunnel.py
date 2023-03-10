@@ -51,6 +51,7 @@ def tunnel(tello: Tello) -> None:
         go_to_pad(common.running)
         tello.go_xyz_speed_mid(0, 0, 30, 20, common.running)
 
+    directions_funcs(common.direction)(y_distance)
     tello.move_up(50)
 
     runs += 1
