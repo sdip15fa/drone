@@ -20,8 +20,11 @@ from drone.functions.tunnel import tunnel
 from drone.functions.snake import snake
 from drone.functions.rotate import rotate
 
+pads = 0
+
 
 def do_operation(pad: int) -> None:
+    global pads
     """
     The do_operation function is the main function of the program. It takes in a
     pad number and executes all of the functions that are associated with that pad
@@ -46,8 +49,10 @@ def do_operation(pad: int) -> None:
     while pad:
         common.lastrun = common.running
         common.running = pad
-        pad = match_functions(pad) or 0
+        pad = match_functions(common.config["alias"][pads] if pads < len(
+            common.config["alias"]) else pad) or 0
         # sleep(1)
+    pads += 1
 
 
 def match_functions(pad: int) -> int:
