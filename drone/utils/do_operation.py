@@ -39,6 +39,7 @@ def do_operation(pad: int) -> None:
             # sleep(5)
             on_change()
             go_to_pad(pad)
+            common.change = False
     else:
         pad = 1
 
@@ -98,9 +99,13 @@ def match_functions(pad: int) -> int:
                 case 4:
                     run_pad = execute(rotate)
                 case 5:
-                    run_pad = execute(up)
+                    # run_pad = execute(up)
+                    # idk, can add other functions here
+                    pass
                 case 6:
-                    run_pad = execute(down)
+                    # run_pad = execute(down)
+                    # idk, can add other functions here
+                    pass
                 case 7:
                     run_pad = execute(around)
                 case 8:

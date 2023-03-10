@@ -19,7 +19,6 @@ def get_config() -> dict[str, str | int | list[int]]:
         common = None
 
     return {
-        'init_height': common.config['init_height'] if common and common.height_changed else int(os.getenv('INIT_HEIGHT') or 100) or 100,
         'height': int(os.getenv('HEIGHT') or 100) or 100,
         'around_times': eval(os.getenv('AROUND_TIMES') or '[]') or [],
         'around_times_default': int(os.getenv('AROUND_TIMES_DEFAULT') or 1) or 1,
@@ -67,12 +66,10 @@ def get_config() -> dict[str, str | int | list[int]]:
         'blacklist_repeat_pads': eval(os.getenv('BLACKLIST_REPEAT_PADS') or '[]') or [],
         'direction': eval(os.getenv('DIRECTION') or '[]') or [],
         'direction_default': int(os.getenv('DIRECTION_DEFAULT') or 1) or 1,
+        'height': eval(os.getenv('HEIGHT') or '[]') or [],
+        'height_default': int(os.getenv('HEIGHT_DEFAULT') or 100) or 100,
         'up_height': eval(os.getenv('UP_HEIGHT') or '[]') or [],
         'up_height_default': int(os.getenv('UP_HEIGHT_DEFAULT') or 50) or 50,
-        'up_change': eval(os.getenv('UP_CHANGE') or '[]') or [],
-        'up_change_default': int(os.getenv('UP_CHANGE_DEFAULT') or 0) or 0,
         'down_height': eval(os.getenv('DOWN_HEIGHT') or '[]') or [],
         'down_height_default': int(os.getenv('DOWN_HEIGHT_DEFAULT') or 50) or 50,
-        'down_change': eval(os.getenv('DOWN_CHANGE') or '[]') or [],
-        'down_change_default': int(os.getenv('DOWN_CHANGE_DEFAULT') or 0) or 0,
     }
