@@ -27,6 +27,7 @@ def tunnel(tello: Tello) -> None:
     tello.go_xyz_speed_mid(0, 0, 30, 20, common.running)
 
     directions_funcs(common.direction)(y_distance)
+    tello.move_up(height + 20)
     if common.change:
         go_to_pad(common.padId)
 
@@ -43,7 +44,8 @@ def tunnel(tello: Tello) -> None:
                     dir_right(common.direction))(x_distance)
             case 3:
                 # from up
-                tello.move_up(height + 20)
+                # tello.move_up(height + 20)
+                pass
         
         directions_funcs(dir_back(common.direction))(y_distance)
         go_to_pad(common.running)
