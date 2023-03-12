@@ -37,6 +37,8 @@ def do_operation(pad: int) -> None:
     """
     common.config = get_config()
 
+    isChange = common.change
+
     if pad in range(1, 9):
         if common.change:
             # sleep(5)
@@ -52,7 +54,9 @@ def do_operation(pad: int) -> None:
         pad = match_functions(common.config["alias"][pads] if pads < len(
             common.config["alias"]) else pad) or 0
         # sleep(1)
-    pads += 1
+        
+    if isChange:
+        pads += 1
 
 
 def match_functions(pad: int) -> int:
