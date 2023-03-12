@@ -17,7 +17,7 @@ def get_config() -> dict[str, str | int | list[int]]:
         import common
     except:
         common = None
-
+    
     return {
         'around_times': eval(os.getenv('AROUND_TIMES') or '[]') or [],
         'around_times_default': int(os.getenv('AROUND_TIMES_DEFAULT') or 1) or 1,
@@ -72,4 +72,5 @@ def get_config() -> dict[str, str | int | list[int]]:
         'down_height': eval(os.getenv('DOWN_HEIGHT') or '[]') or [],
         'down_height_default': int(os.getenv('DOWN_HEIGHT_DEFAULT') or 50) or 50,
         'alias': eval(os.getenv('ALIAS') or '[]') or [],
+        'height_interval': int(os.getenv('HEIGHT_INTERVAL') or 50) or 50
     }
