@@ -38,8 +38,6 @@ def do_operation(pad: int) -> None:
     """
     common.config = get_config()
 
-    isChange = common.change
-
     if pad in range(1, 9):
         if common.change:
             # sleep(5)
@@ -49,14 +47,16 @@ def do_operation(pad: int) -> None:
     else:
         pad = 1
 
+    isPad = common.executed is False and common.padId in range(1,9)
+
     while pad:
         common.lastrun = common.running
         common.running = pad
-        pad = match_functions(common.config["alias"][pads] if pads < len(
-            common.config["alias"]) else pad) or 0
+        pad = match_functions((common.config["alias"][pads] if (isPad and pads < len(
+            common.config["alias"]) ) else pad) or pad) or 0
         # sleep(1)
         
-    if isChange:
+    if isPad:
         pads += 1
 
 

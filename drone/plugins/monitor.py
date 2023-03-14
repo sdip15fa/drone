@@ -2,6 +2,8 @@ import drone.common as common
 
 
 def monitor() -> dict[str, int]:
+    if not common.initialized:
+        return
     curr_height = common.tello.get_height()
     print(f"height: {curr_height} cm")
     battery_level = common.tello.get_battery()

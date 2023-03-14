@@ -1,3 +1,4 @@
+from time import sleep
 import drone.common as common
 from threading import Timer
 from drone.plugins.monitor import monitor
@@ -8,10 +9,10 @@ from drone.lib import set_interval
 
 
 def main() -> None:
-    init_drone()
-
     monitor_interval: Timer = set_interval(monitor, 2000)
     update_pad_interval: Timer = set_interval(update_pad_id, 200)
+
+    init_drone()
 
     while True:
         if common.end:

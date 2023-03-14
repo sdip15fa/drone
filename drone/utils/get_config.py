@@ -72,5 +72,6 @@ def get_config() -> dict[str, str | int | list[int]]:
         'down_height': eval(os.getenv('DOWN_HEIGHT') or '[]') or [],
         'down_height_default': int(os.getenv('DOWN_HEIGHT_DEFAULT') or 50) or 50,
         'alias': eval(os.getenv('ALIAS') or '[]') or [],
-        'height_interval': int(os.getenv('HEIGHT_INTERVAL') or 50) or 50
+        'height_interval': int(os.getenv('HEIGHT_INTERVAL') or 50) or 50,
+        'rotate': eval(os.getenv('ROTATE') or '[]') or []
     }

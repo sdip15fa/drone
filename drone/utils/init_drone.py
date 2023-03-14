@@ -44,3 +44,5 @@ def init_drone() -> None:
     elif height - 20 > common.height:
         print(f"Moving down to {common.height}cm")
         common.tello.move_down(height - common.height)
+
+    common.initialized = True

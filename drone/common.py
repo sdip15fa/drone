@@ -13,6 +13,7 @@ detected: int = -1
 executed: bool = False
 end: bool = False
 change: bool = False
+initialized: bool = False
 
 mode_switched: bool = False
 
