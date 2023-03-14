@@ -1,4 +1,5 @@
 import drone.common as common
+from djitellopy_reduced import Tello
 from time import sleep
 from drone.plugins.update_pad_id import on_change
 from drone.utils.get_config import get_config
@@ -100,7 +101,10 @@ def match_functions(pad: int) -> int:
             match pad:
                 case 1:
                     # do nothing, just used to change direction if needed
-                    run_pad = execute(lambda tello: 0)
+                    def nothing(tello: Tello):
+                        common.executed = True
+                        return 0    
+                    run_pad = execute(nothing)
                 case 2:
                     run_pad = execute(tunnel)
                 case 3:
