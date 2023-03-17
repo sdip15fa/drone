@@ -110,11 +110,13 @@ def match_functions(pad: int) -> int:
                 case 3:
                     run_pad = execute(go_through)
                 case 4:
-                    run_pad = execute(rotate)
+                    run_pad = execute(circle)
                 case 5:
                     # run_pad = execute(up)
                     # idk, can add other functions here
-                    pass
+                    common.tello.curve_xyz_speed_mid(0, 0, 100, 100, 100, 100, 40, 5)
+                    common.executed = True
+                    # execute(curve)
                 case 6:
                     # run_pad = execute(down)
                     # idk, can add other functions here
