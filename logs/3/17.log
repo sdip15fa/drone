@@ -1,0 +1,523 @@
+The currently activated Python version 3.9.0 is not supported by the project (^3.10).
+Trying to find and use a compatible version. 
+Using python3 (3.11.2)
+[INFO] tello.py - 120 - Tello instance was initialized. Host: '192.168.10.1'. Port: '8889'.
+[INFO] tello.py - 408 - Send command: 'command'
+[INFO] tello.py - 432 - Response command: 'ok'
+[INFO] tello.py - 408 - Send command: 'sdk?'
+[INFO] tello.py - 432 - Response sdk?: '30'
+[INFO] tello.py - 408 - Send command: 'mon'
+[INFO] tello.py - 432 - Response mon: 'ok'
+[INFO] tello.py - 408 - Send command: 'takeoff'
+[INFO] tello.py - 432 - Response takeoff: 'ok'
+[INFO] tello.py - 408 - Send command: 'tof?'
+[INFO] tello.py - 432 - Response tof?: '817mm'
+[INFO] tello.py - 408 - Send command: 'speed 100'
+[INFO] tello.py - 432 - Response speed 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'up 40'
+[INFO] tello.py - 432 - Response up 40: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m2'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m2: 'ok'
+[INFO] tello.py - 408 - Send command: 'tof?'
+[INFO] tello.py - 432 - Response tof?: '1003mm'
+[INFO] tello.py - 408 - Send command: 'go 0 0 30 20 m2'
+[INFO] tello.py - 432 - Response go 0 0 30 20 m2: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 220'
+[INFO] tello.py - 432 - Response forward 220: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100'
+[INFO] tello.py - 432 - Response go 0 0 100 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m2'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m2: 'error No valid marker'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m2'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m2: 'error No valid marker'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m2'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m2: 'error No valid marker'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m3'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m3: 'ok'
+[INFO] tello.py - 408 - Send command: 'ccw 90'
+[INFO] tello.py - 432 - Response ccw 90: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 130 100 m3'
+[INFO] tello.py - 432 - Response go 0 0 130 100 m3: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 320'
+[INFO] tello.py - 432 - Response forward 320: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m1'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m1: 'ok'
+[INFO] tello.py - 408 - Send command: 'cw 180'
+[INFO] tello.py - 432 - Response cw 180: 'ok'
+[INFO] tello.py - 408 - Send command: 'right 50'
+[INFO] tello.py - 432 - Response right 50: 'ok'
+[INFO] tello.py - 408 - Send command: 'right 50'
+[INFO] tello.py - 432 - Response right 50: 'ok'
+[INFO] tello.py - 408 - Send command: 'right 50'
+[INFO] tello.py - 432 - Response right 50: 'ok'
+[INFO] tello.py - 408 - Send command: 'right 50'
+[INFO] tello.py - 432 - Response right 50: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m7'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m7: 'ok'
+[INFO] tello.py - 408 - Send command: 'right 50'
+[INFO] tello.py - 432 - Response right 50: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 100'
+[INFO] tello.py - 432 - Response forward 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'left 50'
+[INFO] tello.py - 432 - Response left 50: 'ok'
+[INFO] tello.py - 408 - Send command: 'left 100'
+[INFO] tello.py - 432 - Response left 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 150'
+[INFO] tello.py - 432 - Response forward 150: 'ok'
+[INFO] tello.py - 408 - Send command: 'right 100'
+[INFO] tello.py - 432 - Response right 100: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 50'
+[INFO] tello.py - 432 - Response forward 50: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 50'
+[INFO] tello.py - 432 - Response forward 50: 'ok'
+[INFO] tello.py - 408 - Send command: 'forward 50'
+[INFO] tello.py - 432 - Response forward 50: 'ok'
+[INFO] tello.py - 408 - Send command: 'go 0 0 100 100 m2'
+[INFO] tello.py - 432 - Response go 0 0 100 100 m2: 'ok'
+[INFO] tello.py - 408 - Send command: 'land'
+[INFO] tello.py - 432 - Response land: 'ok'
+Tello connected
+SDK version: 30
+battery: 41%
+enabling mission pads detection
+mission pad id: -1
+Taking off
+height: 40 cm
+battery: 41%
+temperature: 72.5 °C
+tof distance: 59 cm
+x: -5
+y: 0
+z: 31
+mission pad id: -1
+running: -1
+new pad id 2
+height: 70 cm
+battery: 41%
+temperature: 72.0 °C
+tof distance: 83 cm
+x: 0
+y: -2
+z: 86
+mission pad id: 2
+running: -1
+Took off
+Moving up to 100cm
+height: 80 cm
+battery: 41%
+temperature: 72.0 °C
+tof distance: 102 cm
+x: 4
+y: 0
+z: 91
+mission pad id: 2
+running: -1
+Tello initialized
+go to mission pad 2
+height: 90 cm
+battery: 41%
+temperature: 71.5 °C
+tof distance: 103 cm
+x: 6
+y: 0
+z: 120
+mission pad id: 2
+running: -1
+direction (changed to) 1
+height (changed to) 100
+2 alias [0, 0, 0, 0, 8] 0
+add pad number
+executed False
+running the function
+tunnel
+tunnel height 100.3
+height: 30 cm
+battery: 41%
+temperature: 71.5 °C
+tof distance: 41 cm
+x: 4
+y: 0
+z: 81
+mission pad id: 2
+running: 2
+height: 20 cm
+battery: 41%
+temperature: 71.5 °C
+tof distance: 30 cm
+x: 4
+y: 0
+z: 81
+mission pad id: 2
+running: 2
+height: 20 cm
+battery: 41%
+temperature: 71.5 °C
+tof distance: 32 cm
+x: 4
+y: 0
+z: 81
+mission pad id: 2
+running: 2
+new pad id 3
+height: 90 cm
+battery: 41%
+temperature: 71.0 °C
+tof distance: 113 cm
+x: -31
+y: -27
+z: 75
+mission pad id: 3
+running: 2
+height: 90 cm
+battery: 41%
+temperature: 70.5 °C
+tof distance: 99 cm
+x: -17
+y: -24
+z: 123
+mission pad id: 3
+running: 2
+height: 70 cm
+battery: 41%
+temperature: 70.5 °C
+tof distance: 89 cm
+x: -15
+y: -26
+z: 96
+mission pad id: 3
+running: 2
+height: 80 cm
+battery: 41%
+temperature: 70.0 °C
+tof distance: 95 cm
+x: -22
+y: -28
+z: 94
+mission pad id: 3
+running: 2
+Command 'go 0 0 100 100 m2' was unsuccessful for 4 tries. Latest response:	'error No valid marker'
+go to mission pad 3
+height: 80 cm
+battery: 40%
+temperature: 70.0 °C
+tof distance: 97 cm
+x: -17
+y: -25
+z: 96
+mission pad id: 3
+running: 2
+direction (changed to) 1
+height (changed to) 100
+height: 80 cm
+battery: 39%
+temperature: 69.5 °C
+tof distance: 99 cm
+x: -1
+y: -8
+z: 100
+mission pad id: 3
+running: 2
+rotated 270 degrees
+3 alias [0, 0, 0, 0, 8] 1
+add pad number
+executed False
+running the function
+height: 80 cm
+battery: 38%
+temperature: 69.5 °C
+tof distance: 102 cm
+x: -6
+y: 0
+z: 102
+mission pad id: 3
+running: 3
+height: 110 cm
+battery: 37%
+temperature: 69.0 °C
+tof distance: 129 cm
+x: 67
+y: -34
+z: 90
+mission pad id: 3
+running: 3
+height: 120 cm
+battery: 36%
+temperature: 69.5 °C
+tof distance: 127 cm
+x: 28
+y: -34
+z: 130
+mission pad id: 3
+running: 3
+height: 110 cm
+battery: 35%
+temperature: 69.5 °C
+tof distance: 128 cm
+x: -67
+y: 11
+z: 108
+mission pad id: 3
+running: 3
+new pad id 1
+go to mission pad 1
+height: 110 cm
+battery: 35%
+temperature: 69.5 °C
+tof distance: 119 cm
+x: 28
+y: -12
+z: 143
+mission pad id: 1
+running: 3
+height: 80 cm
+battery: 34%
+temperature: 70.0 °C
+tof distance: 100 cm
+x: 13
+y: -9
+z: 107
+mission pad id: 1
+running: 3
+direction (changed to) 4
+height (changed to) 100
+height: 80 cm
+battery: 34%
+temperature: 69.5 °C
+tof distance: 94 cm
+x: 12
+y: -16
+z: 104
+mission pad id: 1
+running: 3
+rotated 180 degrees
+1 alias [0, 0, 0, 0, 8] 2
+add pad number
+executed False
+running the function
+1 alias [0, 0, 0, 0, 8] 3
+executed True
+direction 4
+move right 50cm
+height: 80 cm
+battery: 33%
+temperature: 69.0 °C
+tof distance: 98 cm
+x: 23
+y: -23
+z: 103
+mission pad id: 1
+running: 1
+1 alias [0, 0, 0, 0, 8] 3
+executed True
+direction 4
+move right 50cm
+height: 90 cm
+battery: 33%
+temperature: 69.0 °C
+tof distance: 102 cm
+x: 25
+y: 16
+z: 102
+mission pad id: 1
+running: 1
+height: 90 cm
+battery: 32%
+temperature: 69.5 °C
+tof distance: 101 cm
+x: 20
+y: 31
+z: 105
+mission pad id: 1
+running: 1
+1 alias [0, 0, 0, 0, 8] 3
+executed True
+direction 4
+move right 50cm
+height: 90 cm
+battery: 31%
+temperature: 69.0 °C
+tof distance: 102 cm
+x: 20
+y: 31
+z: 105
+mission pad id: 1
+running: 1
+1 alias [0, 0, 0, 0, 8] 3
+executed True
+direction 4
+move right 50cm
+height: 80 cm
+battery: 31%
+temperature: 69.0 °C
+tof distance: 97 cm
+x: 20
+y: 31
+z: 105
+mission pad id: 1
+running: 1
+new pad id 7
+go to mission pad 7
+height: 80 cm
+battery: 30%
+temperature: 68.5 °C
+tof distance: 100 cm
+x: 12
+y: 12
+z: 102
+mission pad id: 7
+running: 1
+direction (changed to) 1
+height (changed to) 100
+7 alias [0, 0, 0, 0, 8] 3
+add pad number
+executed False
+running the function
+Going around.
+height: 80 cm
+battery: 30%
+temperature: 68.5 °C
+tof distance: 102 cm
+x: 5
+y: -12
+z: 102
+mission pad id: 7
+running: 7
+height: 80 cm
+battery: 29%
+temperature: 68.5 °C
+tof distance: 102 cm
+x: 0
+y: -10
+z: 106
+mission pad id: 7
+running: 7
+height: 80 cm
+battery: 28%
+temperature: 68.0 °C
+tof distance: 98 cm
+x: 0
+y: -10
+z: 106
+mission pad id: 7
+running: 7
+height: 80 cm
+battery: 28%
+temperature: 68.0 °C
+tof distance: 100 cm
+x: -100
+y: -100
+z: -100
+mission pad id: 7
+running: 7
+Going around.
+height: 80 cm
+battery: 28%
+temperature: 68.5 °C
+tof distance: 94 cm
+x: -100
+y: -100
+z: -100
+mission pad id: 7
+running: 7
+height: 80 cm
+battery: 27%
+temperature: 68.5 °C
+tof distance: 100 cm
+x: -100
+y: -100
+z: -100
+mission pad id: 7
+running: 7
+height: 80 cm
+battery: 27%
+temperature: 68.0 °C
+tof distance: 100 cm
+x: -100
+y: -100
+z: -100
+mission pad id: 7
+running: 7
+height: 80 cm
+battery: 27%
+temperature: 68.0 °C
+tof distance: 96 cm
+x: -100
+y: -100
+z: -100
+mission pad id: 7
+running: 7
+7 alias [0, 0, 0, 0, 8] 4
+executed True
+direction 1
+move forward 50cm
+height: 80 cm
+battery: 27%
+temperature: 68.5 °C
+tof distance: 14 cm
+x: -100
+y: -100
+z: -100
+mission pad id: 7
+running: 7
+7 alias [0, 0, 0, 0, 8] 4
+executed True
+direction 1
+move forward 50cm
+height: 100 cm
+battery: 26%
+temperature: 68.0 °C
+tof distance: 37 cm
+x: -100
+y: -100
+z: -100
+mission pad id: 7
+running: 7
+7 alias [0, 0, 0, 0, 8] 4
+executed True
+direction 1
+move forward 50cm
+height: 100 cm
+battery: 26%
+temperature: 67.5 °C
+tof distance: 104 cm
+x: -100
+y: -100
+z: -100
+mission pad id: 7
+running: 7
+new pad id 2
+go to mission pad 2
+height: 90 cm
+battery: 25%
+temperature: 68.0 °C
+tof distance: 102 cm
+x: 22
+y: -14
+z: 103
+mission pad id: 2
+running: 7
+direction (changed to) 1
+height (changed to) 100
+8 alias [0, 0, 0, 0, 8] 4
+add pad number
+executed False
+running the function
+land
+height: 90 cm
+battery: 24%
+temperature: 68.0 °C
+tof distance: 96 cm
+x: 2
+y: 0
+z: 100
+mission pad id: 2
+running: 2
+height: 0 cm
+battery: 24%
+temperature: 68.5 °C
+tof distance: 11 cm
+x: -7
+y: 1
+z: 26
+mission pad id: 2
+running: 2

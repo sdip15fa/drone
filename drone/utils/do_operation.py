@@ -52,14 +52,14 @@ def do_operation(pad: int) -> None:
     while pad:
         common.lastrun = common.running
         common.running = pad
-        print(f"{(common.config["alias"][pads] if (isPad and pads < len(
-            common.config["alias"]) ) else pad) or pad} alias")
-        pad = match_functions((common.config["alias"][pads] if (isPad and pads < len(
-            common.config["alias"]) ) else pad) or pad) or 0
-        # sleep(1)
-        
-    if isPad:
-        pads += 1
+        print((common.config["alias"][pads] if (isPad and pads < len(
+            common.config["alias"]) ) else pad) or pad, "alias", common.config["alias"], pads)
+        toRun = (common.config["alias"][pads] if (isPad and pads < len(
+                common.config["alias"]) ) else pad) or pad
+        if isPad:
+            print("add pad number")
+            pads += 1
+        pad = match_functions(toRun) or 0
 
 
 def match_functions(pad: int) -> int:
