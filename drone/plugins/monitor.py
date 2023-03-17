@@ -2,7 +2,7 @@ import drone.common as common
 
 
 def monitor() -> dict[str, int]:
-    if not common.initialized:
+    if not common.connected:
         return
     curr_height = common.tello.get_height()
     print(f"height: {curr_height} cm")

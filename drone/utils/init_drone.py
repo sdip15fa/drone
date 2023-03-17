@@ -7,6 +7,8 @@ def init_drone() -> None:
     common.tello.connect(True)
     print("Tello connected")
 
+    common.connected = True
+
     sdk = common.tello.query_sdk_version()
     print(f"SDK version: {sdk}")
     battery = common.tello.get_battery()
@@ -46,3 +48,4 @@ def init_drone() -> None:
         common.tello.move_down(height - common.height)
 
     common.initialized = True
+    print("Tello initialized")

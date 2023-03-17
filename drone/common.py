@@ -14,6 +14,7 @@ executed: bool = False
 end: bool = False
 change: bool = False
 initialized: bool = False
+connected: bool = False
 
 mode_switched: bool = False
 

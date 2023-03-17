@@ -23,7 +23,7 @@ def on_change() -> None:
 
 
 def update_pad_id() -> None:
-    if common.end or not common.initialized:
+    if common.end or not common.connected:
         return
     new_pad_id = common.tello.get_mission_pad_id()
     # print(f"detected pad id: {new_pad_id}")
