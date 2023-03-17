@@ -114,7 +114,7 @@ def match_functions(pad: int) -> int:
                 case 5:
                     # run_pad = execute(up)
                     # idk, can add other functions here
-                    common.tello.curve_xyz_speed_mid(0, 0, 100, 100, 100, 100, 40, 5)
+                    common.tello.curve_xyz_speed_mid(50, -50, 100, 100, 0, 100, 40, 5)
                     common.executed = True
                     # execute(curve)
                 case 6:
