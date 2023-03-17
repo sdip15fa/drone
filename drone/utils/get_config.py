@@ -26,7 +26,7 @@ def get_config() -> dict[str, str | int | list[int]]:
         'around_x_default': int(os.getenv('AROUND_X_DEFAULT') or 60) or 60,
         'around_y_default': int(os.getenv('AROUND_Y_DEFAULT') or 100) or 100,
         'around_circle_times': eval(os.getenv('AROUND_CIRCLE_TIMES') or '[]') or [],
-        'around_circle_times_default': int(os.getenv('AROUND_CIRCLE_TIMES_DEFAULT') or 1) or 1,
+        'around_circle_times_default': int(os.getenv('AROUND_CIRCLE_TIMES_DEFAULT') or 0) or 0,
         'circle_times': eval(os.getenv('CIRCLE_TIMES') or '[]') or [],
         'circle_times_default': int(os.getenv('CIRCLE_TIMES_DEFAULT') or 1) or 1,
         'circle_x': eval(os.getenv('CIRCLE_X') or '[]') or [],

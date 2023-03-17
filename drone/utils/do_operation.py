@@ -41,8 +41,8 @@ def do_operation(pad: int) -> None:
     if pad in range(1, 9):
         if common.change:
             # sleep(5)
-            on_change()
             go_to_pad(pad)
+            on_change()
             common.change = False
     else:
         pad = 1
@@ -52,6 +52,8 @@ def do_operation(pad: int) -> None:
     while pad:
         common.lastrun = common.running
         common.running = pad
+        print(f"{(common.config["alias"][pads] if (isPad and pads < len(
+            common.config["alias"]) ) else pad) or pad} alias")
         pad = match_functions((common.config["alias"][pads] if (isPad and pads < len(
             common.config["alias"]) ) else pad) or pad) or 0
         # sleep(1)
@@ -120,11 +122,6 @@ def match_functions(pad: int) -> int:
                 case 6:
                     # run_pad = execute(down)
                     # idk, can add other functions here
-                    common.tello.flip_back()
-                    common.tello.flip_front()
-                    common.tello.flip_left()
-                    common.tello.flip_right()
-                    common.executed = True
                     pass
                 case 7:
                     run_pad = execute(around)
