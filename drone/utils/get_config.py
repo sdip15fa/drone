@@ -45,7 +45,7 @@ def get_config() -> dict[str, str | int | list[int]]:
         'ip': os.getenv('TELLO_IP') or "192.168.10.1",
         'speed': int(os.getenv('SPEED') or 60) or 60,
         'distance': int(os.getenv('DISTANCE') or 30) or 30,
-        'mode': common.config['mode'] if common and common.mode_switched else int(os.getenv('MODE') or 1) or 1,
+        'mode': common.config['mode'] if common and common.mode_switched else int(os.getenv('MODE') or 2) or 2,
         'switch_mode': common.config['switch_mode'] if common and common.mode_switched else int(os.getenv('SWITCH_MODE') or 0) or 0,
         'go_through_max_height': eval(os.getenv('GO_THROUGH_MAX_HEIGHT') or '[]') or [],
         'go_through_max_height_default': int(os.getenv('GO_THROUGH_MAX_HEIGHT_DEFAULT') or 200) or 200,
