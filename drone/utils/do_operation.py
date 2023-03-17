@@ -120,6 +120,11 @@ def match_functions(pad: int) -> int:
                 case 6:
                     # run_pad = execute(down)
                     # idk, can add other functions here
+                    common.tello.flip_back()
+                    common.tello.flip_front()
+                    common.tello.flip_left()
+                    common.tello.flip_right()
+                    common.executed = True
                     pass
                 case 7:
                     run_pad = execute(around)
