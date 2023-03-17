@@ -21,7 +21,7 @@ from drone.functions.tunnel import tunnel
 from drone.functions.snake import snake
 from drone.functions.rotate import rotate
 
-pads = 0
+pads = -1
 
 
 def do_operation(pad: int) -> None:
@@ -49,16 +49,17 @@ def do_operation(pad: int) -> None:
 
     isPad = common.executed is False and common.padId in range(1,9)
 
+    if isPad:
+        print("add pad number")
+        pads += 1
+
     while pad:
         common.lastrun = common.running
         common.running = pad
         print((common.config["alias"][pads] if (isPad and pads < len(
             common.config["alias"]) ) else pad) or pad, "alias", common.config["alias"], pads)
         toRun = (common.config["alias"][pads] if (isPad and pads < len(
-                common.config["alias"]) ) else pad) or pad
-        if isPad:
-            print("add pad number")
-            pads += 1
+                common.config["alias"])) else pad) or pad
         pad = match_functions(toRun) or 0
 
 
