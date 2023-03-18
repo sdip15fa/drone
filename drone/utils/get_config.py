@@ -75,5 +75,13 @@ def get_config() -> dict[str, str | int | list[int]]:
         'down_height_default': int(os.getenv('DOWN_HEIGHT_DEFAULT') or 50) or 50,
         'alias': eval(os.getenv('ALIAS') or '[]') or [],
         'height_interval': int(os.getenv('HEIGHT_INTERVAL') or 50) or 50,
-        'rotate': eval(os.getenv('ROTATE') or '[]') or []
+        'rotate': eval(os.getenv('ROTATE') or '[]') or [],
+        'curve_x': eval(os.getenv('CURVE_X') or '[]') or [],
+        'curve_x_default': int(os.getenv('CURVE_X_DEFAULT') or 50) or 50,
+        'curve_y': eval(os.getenv('CURVE_Y') or '[]') or [],
+        'curve_y_default': int(os.getenv('CURVE_Y_DEFAULT') or 100) or 100,
+        'curve_z': eval(os.getenv('CURVE_Z') or '[]') or [],
+        'curve_z_default': int(os.getenv('CURVE_Z_DEFAULT') or 100) or 100,
+        'curve_times': eval(os.getenv('CURVE_TIMES') or '[]') or [],
+        'curve_times_default': int(os.getenv('CURVE_TIMES_DEFAULT') or 1) or 1,
     }

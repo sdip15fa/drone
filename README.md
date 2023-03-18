@@ -107,11 +107,17 @@ Move a right-forward-left-back-right path (like a square), finally returns to th
 
 Times can be set using `CIRCLE_TIMES`.
 
+#### Curve
+
+Move around a curve (like in [around](#around)).
+
 #### Land
 
 Auto land. The program is exited after that.
 
 ### Mode 1
+
+WARNING: Mode 1 is obsolete, please use [mode 2](#mode-2) instead.
 
 `MODE=1`
 
@@ -165,15 +171,15 @@ Do nothing.
 
 #### 4
 
-[Rotate](#rotate)
+[Circle](#circle-square)
 
 #### 5
 
-[Up](#up)
+[Curve](#curve)
 
 #### 6
 
-[Down](#down)
+NO idea yet.
 
 #### 7
 

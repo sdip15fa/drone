@@ -1,6 +1,7 @@
 import drone.common as common
 from djitellopy_reduced import Tello
 from time import sleep
+from drone.functions.curve import curve
 from drone.plugins.update_pad_id import on_change
 from drone.utils.get_config import get_config
 from drone.utils.go_to_pad import go_to_pad
@@ -115,11 +116,7 @@ def match_functions(pad: int) -> int:
                 case 4:
                     run_pad = execute(circle)
                 case 5:
-                    # run_pad = execute(up)
-                    # idk, can add other functions here
-                    common.tello.curve_xyz_speed_mid(50, -50, 100, 100, 0, 100, 40, 5)
-                    common.executed = True
-                    # execute(curve)
+                    run_pad = execute(curve)
                 case 6:
                     # run_pad = execute(down)
                     # idk, can add other functions here
